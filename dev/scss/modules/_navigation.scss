@@ -6,8 +6,19 @@
 // *************************************
 
 .Navigation {
-  @include clearfix;
-  text-align: center;
+    @include clearfix;
+    text-align: left;
+    background: #636466;
+    font-size: 14px;
+    color: white;
+    margin-top:0px;
+    font-family: $t-fontFamily;
+    font-weight: 700;
+    margin-left: 5px;
+}
+
+.Navigation ul {
+  margin: 0; 
 }
 
 // -------------------------------------
@@ -24,13 +35,8 @@
 // States
 // -------------------------------------
 
-.Navigation-list {
-	display: block;
-	margin: 0px;
-}
-
 .Navigation-link.is-active {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 // -------------------------------------
@@ -47,13 +53,26 @@
 
 .Navigation-listItem {
   display: block;
-  margin: 0 rem(15px);
   float: left;
+  //margin: 0 rem(6px);
+  padding: 10px 24px 0px 23px;
+  height: 40px;
+  border-right: 1px solid $c-black;
+  -webkit-transition:all 0.4s ease;
+  -moz-transition:all 0.4s ease;
+  -o-transition:all 0.4s ease;
   &:first-of-type {
     margin-left: 0;
   }
   &:last-of-type {
     margin-right: 0;
+    border-right: 0;
+  }
+  &:hover {
+    background: #f9a21e;
+    -webkit-transition:all 0.4s ease;
+    -moz-transition:all 0.4s ease;
+    -o-transition:all 0.4s ease;
   }
 }
 
@@ -61,6 +80,8 @@
 
 .Navigation-link {
   text-transform: uppercase;
+  color: $c-white;
+  display: block;
 }
 
 .Navigation-link--invertedBold {

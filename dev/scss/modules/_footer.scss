@@ -1,4 +1,15 @@
+.footer-top{
+	border-bottom:1px solid #f9a21e;
+	background: #1d1e20;
+}
+
 .Footer {
+	background: #1d1e20;
+	padding-bottom: 15px;
+}
+
+.Socket{
+	text-align: center;	
 }
 
 // RESPONSIVE FOOTER
@@ -17,3 +28,51 @@
 
 }
 
+.footer-link{
+	color: #f9a21e;
+}
+
+.widgettitle{
+	font-size: 16px;
+	color: #f9a21e;
+}
+
+.Footer p {
+	line-height: 50%;
+}
+
+.social-button{
+  margin-top: 10px;
+}
+
+.betaal-informatie{
+  margin-top: 10px;
+  text-align: right;
+}
+
+.menu-0{
+	width: 100%;
+}
+
+
+
+
+
+
+@media all and (max-width: 600px) {
+
+	.footer-top, .betaal-informatie{
+		text-align: center;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	.Footer{
+		text-align: center;
+	}
+
+	.Footer p {
+		line-height: 2;
+	}
+
+}

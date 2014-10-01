@@ -32,7 +32,13 @@
     width: 25px;
 
   }
+
+
 }
+
+  .telefoon{
+	float:left;
+  }
 
 // *************************************
 //
@@ -52,57 +58,57 @@
 
 
 @media all and (max-width: 1040px) {
-	.Nav-tel {
-		display: none;
-	 }
-	 #js-navCollapseTarget {
+ 	#js-navCollapseTarget {
 		display: none;
         position: relative;
-        top: 65px;
         left: 0;
         margin: 0;
         width: 100%;
-        box-shadow: 0px 30px 20px -20px rgba(0, 0, 0, 0.3) inset;
 	 }
 
-	 .Bot-Nav {
-		height: auto;
-		min-height: 58px;
-	 }
-	 #js-navCollapse {
+	  #js-navCollapse {
 		display: block;
+		fill: white;
+
+		.Icon {
+			margin-left: 3px;
+			margin-top: 7px;
+			width: 1.6em;
+			height: 1.2em;
+		}
 	 }
 
-	//  This is the wrapper for the navigation
-	.Nav-wrap {
-		height: auto;
-		min-height: 60px; // <-- adjust to height of div
-	}
+	 .Header-telefoon, .Header-email{
+	 	display:none;
+	 }
 
-	.Navigation-menuToggle  {
-	  display: block;
-	}
 	//  Adjust the sizes and colors for erverything to your choice
 	.Navigation {	
 		position: relative;
 	}
 
+	nav{
+		border-bottom: 0px;
+		background-color: #0097ff;
+		padding-bottom: 3px;
+	}
+
 	.Navigation-list {
 		position: static;
-        background-color: rgba(0, 78, 117, 1);
         border: 0px solid;
         box-shadow: 0 0 0 #fff;
 
 
 	}
 
-
 	.Navigation-listItem {
-		display: block;
+		height: 100%;
 		float: none;
 		line-height: 30px;
 		border-left: 0 solid;
 		width: 100%;
+		border-right: 0;
+		margin-top: 10px;
 
 		&:last-of-type {
 			margin-bottom: 15px;
@@ -122,83 +128,29 @@
 		}
 
         &:first-of-type a {       
-          box-shadow: 0px 30px 20px -20px rgba(0, 0, 0, 0.1) inset;
           padding-top: 10px;  
         }
 
         &:last-of-type a {              
-          box-shadow: 0px 15px 20px -18px rgba(0, 0, 0, 0.6);
           border-bottom: 0px solid;
         }
+    }
 
-	}
-
-	.Navigation-link {
-        line-height: 58px;
+    .Navigation-link {
+        line-height: 30px;
 		color: white;
 		display: block;
+		text-align: center;
         font-size: 20px;
 		padding: 5px;
 		margin: 0;
 		font-weight: 400;
 		letter-spacing: 1.7px;
 	    &:hover {
-            background-color: #1e719a;
             color: white;
         }
+    }
 
-
-	}
-	//	This is for those 3 contact icons on the left of the navbar
-	.Mob-contact-ico {
-		display: block;
-		z-index: 5000;
-
-		a { 
-			border: 2px solid white;
-			position: absolute;
-			display: block;
-			width: 35px;
-			height: 35px;
-			border-radius: 7px;
-			top: 8px;
-			background-color: transparent;
-			&:hover {
-				background-color: rgba(255,255,255,0.2);
-			}
-
-			.Icon--inline {
-				fill: white;
-				width: 2em;
-				height: 2em;
-				padding-bottom: 1em;				
-			}
-		}
-
-		.telsvg {
-			left: 10px;				
-			.Icon--inline {
-				margin: -4px;
-				margin-top: 5px;
-			}
-		}
-
-		.tel2svg {
-			left: 55px;				
-			.Icon--inline {
-				margin: -5px;
-				margin-top: 5px;
-			}
-		}
-
-		.mailsvg {
-			left: 100px;				
-			.Icon--inline {
-				margin: -4px;
-				margin-top: 5px;
-			}
-		}
-	}
 }
 
 @media all and (min-width: 1040px) {  
@@ -219,14 +171,4 @@
   }
 }
 
-@media all and (max-width: 390px) { 
-  .logo-top {
-    width: 180px;
-    margin-top: 48px;
-  }
-  
-  .logo-bot {
-    margin-top: 20px;
-    width: 170px;
-  }
-}
+

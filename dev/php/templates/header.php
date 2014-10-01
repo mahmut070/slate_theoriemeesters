@@ -20,8 +20,10 @@
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 
     <!-- Favicons -->
-    <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" href="<?php echo get_stylesheet_directory_uri(); ?>/apple-touch-icon.png">
+    <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/img/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="<?php echo get_stylesheet_directory_uri(); ?>/img/app-icon-tm.png">
+
+    <link href='http://fonts.googleapis.com/css?family=Quicksand:400,700' rel='stylesheet' type='text/css'>
 
     <!-- build:remove:expanded -->
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/production.min.css">
@@ -42,30 +44,47 @@
   <body <?php body_class(); ?> >
 
 
-  <div class="Bot-Nav">
-	<div class="u-gridContainer">
-		<div class="Nav-toggle u-cf">
-			<a class="Navigation-menuToggle" id="js-navCollapse">
-				<svg class="Icon Icon--inline" viewBox="0 0 128 128">
-					<use xlink:href="#icon-menu2"></use>
-				</svg>
-			</a>
-		</div>
+    <div class="Header">
+        <div class="u-gridContainer Header-wrapper">
+            <div class="extra-menu">
+                bla bla
+            </div>
+            <a href="/home"><img class="header-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png"/></a>
+            <div class="u-gridRow header-space">
+                <div class="u-gridCol3">-
+                </div>
+                <div class="u-gridCol9 u-cf">
+                    <div class="Header-telefoon">
+                        <a href="tel:0648038209">
+                            <img class="header-imgTel" src="<?php echo get_stylesheet_directory_uri(); ?>/img/svg/telefoon.svg"> 
+                            <h4 class="header-textTel">06 546 03 807</h4>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>  
+        <div class="Header-grey-bar  header-space"> <!-- 100%, grey bg color -->
+            <div class="u-gridContainer">
+                <div class="u-gridRow">
+                    <div class="u-gridCol3 space">x
+                    </div>
+                    <div class="u-gridCol9">
+                        <div class="u-cf">
+                            <a class="Navigation-menuToggle" id="js-navCollapse">
+                                <svg class="Icon Icon--inline" viewBox="0 0 128 128">
+                                    <use xlink:href="#icon-menu2"></use>
+                                </svg>
+                            </a>
+                            <a href="tel:0648038209" class="Navigation-menuToggle telefoon" id="js-navCollapse">
+                                <svg class="Icon Icon--inline" viewBox="0 0 128 128">
+                                    <use xlink:href="#icon-phone"></use>
+                                </svg>
+                            </a>
+                        </div>
+                        <?php include 'includes/navigation.php'; ?>            
+                    </div>
+                </div>
+            </div>    
+        </div>
 
-		<?php include 'includes/navigation.php'; ?>
-		
-		<div class="Mob-contact-ico">
-			<a class="Button Button--transparent u-textInverted u-noLine telsvg" href="tel:0654603807">
-				<svg class="Icon Icon--inline" viewBox="0 0 128 128">
-					<use xlink:href="#icon-phone"></use>
-				</svg>
-			</a>
-		
-                <a class="Button Button--transparent u-textInverted u-noLine mailsvg" href="mailto:rijschooladem@gmail.com">
-				<svg class="Icon Icon--inline" viewBox="0 0 128 128">
-					<use xlink:href="#icon-envelope"></use>
-				</svg>
-			</a>
-		</div><!-- header-contact -->
-	</div>
-  </div>
+    </header>

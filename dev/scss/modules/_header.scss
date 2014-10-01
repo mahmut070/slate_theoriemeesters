@@ -6,9 +6,97 @@
 // *************************************
 
 .Header {
-  background-image: url("../img/img-header-bg.png");
   background-size: cover;
+  position: relative;
 }
+
+.Header-wrapper {
+  position:relative
+}
+
+.extra-menu{
+  text-align: right;
+}
+
+.Header-grey-bar{
+  background-color: #636466;
+}
+
+.Header-telefoon, .Header-winkelmandje {
+  float: right;
+}
+
+.header-space {
+  margin-top: 13px;
+}
+
+.header-logo{
+  margin: 0;
+  position: absolute;
+  display: inline;
+}
+
+.header-titel{
+  margin: 0;
+  display: inline;
+  font-size: 21px;
+  color: #3e3e3e;
+  font-weight: 200;
+  float: left;
+}
+
+.header-tel {
+    float: right;
+}
+
+.header-imgTel{
+   margin: 0;
+    display: inline;
+    vertical-align: middle;
+    max-width: 31px;
+}
+
+.header-textTel{
+     margin: 0;
+     display: inline;
+      font-size: 21px;
+      color: #b0b1b1;
+      font-weight: 400;
+      vertical-align: middle;
+}
+
+.header-winkelmandje{
+     margin: 0;
+     display: inline;
+     font-size: 16px;
+     color: #3e3e3e;
+     font-weight: 200;
+     vertical-align: middle;
+     cursor: pointer;
+}
+
+
+@media all and (max-width: 600px) {
+  
+  .header-space {
+    margin-top: 66px;
+  }
+
+  .Header-telefoon, .space{
+    display: none;
+  }
+
+  .extra-menu{
+    display: none;
+  }
+
+  .Navigation {
+    padding-bottom: 10px;
+    margin-left: 0;
+  }
+
+}
+
 
 // -------------------------------------
 // Module specific variables
@@ -71,4 +159,9 @@
   @extend .u-gridRow;
   padding-bottom : ($l-whiteSpace * 4);
   padding-top    : ($l-whiteSpace * 4);
+}
+
+.space-opacity{
+  opacity: 0;
+  height: 1px;
 }

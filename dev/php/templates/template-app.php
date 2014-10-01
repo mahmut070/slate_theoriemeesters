@@ -12,7 +12,7 @@ Template Name: App page
 			<div class="u-gridContainer">
 				<h2><?php the_title(); ?></h2>
 				<aside class="u-gridCol4">
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/screenshot.png" class="App-iphone" />
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/app-tm.png" class="App-iphone" />
 				</aside>
 				<article class="Content-article u-gridCol8" id="post-<?php the_ID(); ?>">
 					<?php // the_content(); ?>
@@ -20,8 +20,7 @@ Template Name: App page
 
 					Voor Apple iPhone gebruikers: scan de QR-code of surf naar de website. 
 
-					<a href="#">Download de app hier</a>
-
+					<a href="" class="google-play"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/play.png"/></a>
 
 
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/qr_code.png" />

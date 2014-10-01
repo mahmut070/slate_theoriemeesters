@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="56.376px" height="56.375px" viewBox="0 0 56.376 56.375" enable-background="new 0 0 56.376 56.375" xml:space="preserve">
+<g id="Layer_3">
+	<rect fill="#F9A11D" width="56.376" height="56.376"/>
+	<g>
+		<g>
+			<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="43.439" y1="59.124" x2="35.1653" y2="20.1997">
+				<stop  offset="0" style="stop-color:#000000;stop-opacity:0.25"/>
+				<stop  offset="1" style="stop-color:#000000"/>
+			</linearGradient>
+			<polygon opacity="0.75" fill="url(#SVGID_1_)" points="47.411,17.597 56.375,26.561 56.375,26.561 56.376,56.375 33.24,56.376 
+				20.233,43.37 			"/>
+			<g>
+				<polygon fill="#272B37" points="20.889,44.119 8.7,31.93 14.492,26.139 20.889,32.536 41.619,11.806 47.411,17.597 				"/>
+			</g>
+		</g>
+	</g>
+</g>
+<g id="Layer_2" display="none">
+	
+		<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="139.3115" y1="-78.6851" x2="156.7693" y2="-96.1428" gradientTransform="matrix(0.7071 0.7071 0.7071 -0.7071 -31.1537 -149.1732)">
+		<stop  offset="0" style="stop-color:#F9A11D;stop-opacity:0"/>
+		<stop  offset="1" style="stop-color:#F9A11D"/>
+	</linearGradient>
+	<polygon display="inline" opacity="0.5" fill="url(#SVGID_2_)" points="52.202,4.972 13.051,4.972 -28.771,29.661 27.514,29.661 	
+		"/>
+	<g display="inline" opacity="0.5">
+		
+			<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="52.2021" y1="-419.1802" x2="27.5708" y2="-419.1802" gradientTransform="matrix(1 0 0 -1 0 -373.5684)">
+			<stop  offset="0" style="stop-color:#F9A11D;stop-opacity:0"/>
+			<stop  offset="1" style="stop-color:#F9A11D"/>
+		</linearGradient>
+		<polygon fill="url(#SVGID_3_)" points="27.571,86.309 27.57,29.661 52.202,4.914 52.202,61.678 		"/>
+	</g>
+	<rect x="-28.771" y="29.667" display="inline" fill="#F9A11D" width="56.642" height="56.642"/>
+	<g display="inline">
+		<g>
+			<g>
+				<polygon fill="#272B37" points="-7.617,74.053 -19.805,61.864 -14.013,56.073 -7.617,62.47 13.113,41.74 18.905,47.531 				"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

@@ -10,8 +10,8 @@ html {
 }
 
 body {
-  background  : $c-white;
-  color       : $c-black;
+  background  : $c-black;
+  color       : $c-white;
   font-family : $t-fontFamily;
   font-size   : 100%;
   line-height : $t-lineHeight;
@@ -65,11 +65,11 @@ ul {
 // -------------------------------------
 
 a {
-  color: $c-blue;
+  color: $c-white;
   text-decoration: none;
   &:hover,
   &:focus {
-    text-decoration: underline;
+    text-decoration: none;
   }
 }
 
