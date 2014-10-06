@@ -14,10 +14,6 @@
   position:relative
 }
 
-.extra-menu{
-  text-align: right;
-}
-
 .Header-grey-bar{
   background-color: #636466;
 }
@@ -27,7 +23,7 @@
 }
 
 .header-space {
-  margin-top: 13px;
+  margin-top: 12px;
 }
 
 .header-logo{
@@ -83,10 +79,6 @@
   }
 
   .Header-telefoon, .space{
-    display: none;
-  }
-
-  .extra-menu{
     display: none;
   }
 

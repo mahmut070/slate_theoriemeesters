@@ -102,14 +102,40 @@
 	margin-top: 79px;
 }
 
-.aanmeld-content{
-	width: 100%;
-	height: 100px;
-	background: #636466;
-	margin-top: 20px;
-	margin-bottom: 30px;
+.aanmeld-content-auto{
+	width: 103%;
+	height: 150px;
+	margin-bottom: 16px;
 	display: inline-block;
+	background: url(../img/svg/blok-midden-auto.svg);
+	background-size: 302px 152px;
+	padding: 51px 48px 34px 1px;
+	background-repeat: no-repeat;
 }
+
+.aanmeld-content-motor{
+	width: 100%;
+	height: 132px;
+	margin-top: 10px;
+	margin-bottom: 25px;
+	display: inline-block;
+	background: url(../img/svg/blok-midden-motor.svg);
+	background-size: 312px 145px;
+	padding: 42px 8px 34px 4px;
+	background-repeat: no-repeat;
+}
+
+.aanmeld-content-brommer{
+	width: 103%;
+	height: 150px;
+	margin-bottom: 16px;
+	display: inline-block;
+	background: url(../img/svg/blok-midden-brommer.svg);
+	background-size: 302px 152px;
+	padding: 50px 1px 34px 27px;
+	background-repeat: no-repeat;
+}
+
 
 .les-button{
 	text-align: center;
@@ -121,7 +147,7 @@
 	height: 96px;
 	color: #000000;
 	font-weight: 700;
-	padding: 27px 22px 37px 10px;
+	padding: 27px 63px 39px 10px;
 	background: url(../img/svg/button-bg-auto.svg);
 	background-size: 130px 54px;
 	background-repeat: no-repeat;
@@ -145,11 +171,12 @@
 	height: 96px;
 	color: #000000;
 	font-weight: 700;
-	padding: 27px 22px 37px 28px;
+	padding: 27px 27px 39px 28px;
 	background: url(../img/svg/button-bg-brommer.svg);
 	background-size: 130px 54px;
 	background-repeat: no-repeat;
 	margin-bottom: 20px;
+	margin-left: 50px;
 }
 
 

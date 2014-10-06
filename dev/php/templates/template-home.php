@@ -78,7 +78,7 @@ Template Name: Homepage
 						</div>
 					</div> 
 
-					<div class="aanmeld-content">
+					<div class="aanmeld-content-auto">
 						<table width ="100%">
 							<tr><td class="tabel-titel">
 								<p>Aantal personen:</p> 
@@ -87,7 +87,7 @@ Template Name: Homepage
 							</td></tr>
 							<tr><td class="tabel-titel">
 
-							<p>Datum:</p>
+							<p>Datum + plaats:</p>
 							</td><td>
 								<select>
 								  <option value="1">Kies datum</option>
@@ -122,7 +122,7 @@ Template Name: Homepage
 					</div> 
 
 
-					<div class="aanmeld-content">
+					<div class="aanmeld-content-motor">
 						<table width ="100%">
 							<tr><td class="tabel-titel">
 								<p>Aantal personen:</p> 
@@ -131,7 +131,7 @@ Template Name: Homepage
 							</td></tr>
 							<tr><td class="tabel-titel">
 
-							<p>Datum:</p>
+							<p>Datum + plaats:</p>
 							</td><td>
 								<select>
 								  <option value="1">Kies datum</option>
@@ -163,7 +163,7 @@ Template Name: Homepage
 						</div>
 					</div> 
 
-					<div class="aanmeld-content">
+					<div class="aanmeld-content-brommer">
 						<table width ="100%">
 							<tr><td class="tabel-titel">
 								<p>Aantal personen:</p> 
@@ -172,7 +172,7 @@ Template Name: Homepage
 							</td></tr>
 							<tr><td class="tabel-titel">
 
-							<p>Datum:</p>
+							<p>Datum + plaats:</p>
 							</td><td>
 								<select>
 								  <option value="1">Kies datum</option>

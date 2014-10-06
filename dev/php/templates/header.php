@@ -46,9 +46,6 @@
 
     <div class="Header">
         <div class="u-gridContainer Header-wrapper">
-            <div class="extra-menu">
-                bla bla
-            </div>
             <a href="/home"><img class="header-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png"/></a>
             <div class="u-gridRow header-space">
                 <div class="u-gridCol3">-
