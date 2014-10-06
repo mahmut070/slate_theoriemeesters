@@ -66,6 +66,7 @@ Template Name: Homepage
 		
 				<div class="u-gridCol4 box">
 					<div class="box-auto">
+						<img class="badge-auto" src="<?php echo get_stylesheet_directory_uri();?>/img/badge-auto.png">	
 						<div class="box-auto-content">
 							<img class="ribbon" src="<?php echo get_stylesheet_directory_uri();?>/img/ribbon-auto.png">	
 							<img class="les-prijs" src="<?php echo get_stylesheet_directory_uri();?>/img/les-prijs.png">							
@@ -109,6 +110,7 @@ Template Name: Homepage
 
 				<div class="u-gridCol4 box">
 					<div class="box-motor">
+					<img class="badge-motor" src="<?php echo get_stylesheet_directory_uri();?>/img/badge-motor.png">	
 						<div class="box-motor-content">
 							<img class="ribbon" src="<?php echo get_stylesheet_directory_uri();?>/img/ribbon-motor.png">	
 							<img class="les-prijs" src="<?php echo get_stylesheet_directory_uri();?>/img/les-prijs.png">														
@@ -151,6 +153,7 @@ Template Name: Homepage
 
 				<div class="u-gridCol4 box">
 					<div class="box-brommer">
+					<img class="badge-brommer" src="<?php echo get_stylesheet_directory_uri();?>/img/badge-brommer.png">	
 						<div class="box-brommer-content">
 							<img class="ribbon" src="<?php echo get_stylesheet_directory_uri();?>/img/ribbon-brommer.png">	
 							<img class="les-prijs" src="<?php echo get_stylesheet_directory_uri();?>/img/les-prijs.png">	
