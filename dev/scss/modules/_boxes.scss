@@ -88,7 +88,7 @@
 	display: inline-block;
 	background: url(../img/svg/blok-midden-auto.svg);
 	background-size: 302px 152px;
-	padding: 61px 48px 34px 1px;
+	padding: 47px 48px 34px 1px;
 	background-repeat: no-repeat;
 	margin-top: -19px;
 }
@@ -100,7 +100,7 @@
 	display: inline-block;
 	background: url(../img/svg/blok-midden-motor.svg);
 	background-size: 302px 133px;
-	padding: 50px 8px 34px 4px;
+	padding: 39px 8px 34px 4px;
 	background-repeat: no-repeat;
 	margin-top: -11px;
 }
@@ -112,7 +112,7 @@
 	display: inline-block;
 	background: url(../img/svg/blok-midden-brommer.svg);
 	background-size: 302px 152px;
-	padding: 61px 1px 34px 27px;
+	padding: 48px 1px 34px 27px;
 	background-repeat: no-repeat;
 	margin-top: -19px;
 }
@@ -198,6 +198,27 @@
 	font-size: 11px;
 }
 
+// WEBSHOP product form with # and datepicker
+.form {
+	margin-left: 20px;
+	margin-right: 20px;
+	.control-group {
+		@include clearfix;
+		display: block;
+		.control-label {
+			float: left;
+			display: inline;
+		}
+
+		.controls input, .controls select {
+			display: inline;
+			float: right;
+			width: 40%;
+		}
+
+	}
+
+}
 
 
 

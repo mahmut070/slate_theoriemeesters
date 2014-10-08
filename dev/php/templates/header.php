@@ -83,5 +83,5 @@
                 </div>
             </div>    
         </div>
-
+		<div id="shoppingcart"></div>
     </header>

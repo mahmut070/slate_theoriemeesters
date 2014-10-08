@@ -200,8 +200,8 @@ Template Name: Homepage
 
 
 		</div>
-
-			<p class="eind-text">Snel je theorie halen in één dag voor de auto, brommer en motor! <br>
+			<?php echo do_shortcode('[webshop_categories id="1263" render_options_on_overview="true"]'); ?>
+			<p class="eind-text">Snel je theorie halen in één dag voor de auto, brommer en motor! <br/>
 			Meteen  na de theoriecursus doe je theorie-examen bij het CBR. </p>
 	</div>
 
