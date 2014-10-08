@@ -71,12 +71,30 @@
 	}
 
 	.header-logo{
-    	width: 90%;
-   	 	margin-top: 10px;
+		width: 50%;
+		margin-top: 20px;
+		margin-left: -18px;
   	}
 
   	.grey-bar{
   		margin-top: 0px;
   	}
 
+  	.aanmeld-content-motor, .aanmeld-content-auto, .aanmeld-content-brommer{
+  		padding-top: 57px;
+  	}
+
+}
+
+
+@media all and (max-width: 400px) {
+	.header-logo{
+    	width: 90%;
+   	 	margin-top: 10px;
+   	 	margin-left:0;
+  	}
+
+  	.aanmeld-content-motor, .aanmeld-content-auto, .aanmeld-content-brommer{
+  		padding-top: 57px;
+  	}
 }
