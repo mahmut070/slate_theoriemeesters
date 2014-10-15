@@ -54,7 +54,7 @@
                     <div class="Header-telefoon">
                         <a href="tel:0648038209">
                             <img class="header-imgTel" src="<?php echo get_stylesheet_directory_uri(); ?>/img/svg/telefoon.svg"> 
-                            <h4 class="header-textTel">06 546 03 807</h4>
+                            <h4 class="header-textTel">06 54 60 38 07</h4>
                         </a>
                     </div>
                 </div>
@@ -65,7 +65,7 @@
                 <div class="u-gridRow">
                     <div class="u-gridCol3 space">x
                     </div>
-                    <div class="u-gridCol9">
+                    <div class="u-gridCol9 menu">
                         <div class="u-cf">
                             <a class="Navigation-menuToggle" id="js-navCollapse">
                                 <svg class="Icon Icon--inline" viewBox="0 0 128 128">

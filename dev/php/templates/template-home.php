@@ -13,8 +13,8 @@ Template Name: Homepage
 					<div class="mid-titel">
 						<img class="icon-vinkje" src="<?php echo get_stylesheet_directory_uri();?>/img/svg/vinkje.svg">
 						<p class="mid-titel-text">Haal je theorie in één dag</p>
-						<p class="mid-titel-caption">&#9679; 'S ochtend theorie cursus</p>
-						<p class="mid-titel-caption">&#9679; 'S middags theorie examen</p>
+						<p class="mid-titel-caption">&#9679; 's ochtends theoriecursus</p>
+						<p class="mid-titel-caption">&#9679; 's middags theorie-examen</p>
 					</div>
 					<div class="mid-titel">
 						<img class="icon-vinkje" src="<?php echo get_stylesheet_directory_uri();?>/img/svg/vinkje.svg">
@@ -64,7 +64,7 @@ Template Name: Homepage
 			</article>
 		<?php endwhile; endif; ?>-->
 		
-				<div class="u-gridCol4 box">
+				<!--<div class="u-gridCol4 box">
 					<div class="box-auto">
 						<img class="badge-auto" src="<?php echo get_stylesheet_directory_uri();?>/img/badge-auto.png">	
 						<div class="box-auto-content">
@@ -196,12 +196,12 @@ Template Name: Homepage
 
 
 
-			</div>
+			</div>-->
 
 
 		</div>
 			<?php echo do_shortcode('[webshop_categories id="1263" render_options_on_overview="true"]'); ?>
-			<p class="eind-text">Snel je theorie halen in één dag voor de auto, brommer en motor! <br/>
+			<p class="eind-text">Snel je theorie halen in één dag voor de auto, motor en scooter! <br/>
 			Meteen  na de theoriecursus doe je theorie-examen bij het CBR. </p>
 	</div>
 

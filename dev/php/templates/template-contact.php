@@ -16,7 +16,7 @@ Template Name: Contactpage
 					<div class="u-gridRow">					
 						<div class="adress u-gridCol4">
 							<div class="adress-info">
-								<p>Theoriemeesters</p>
+								<p>Theorie City</p>
 								<p>Californiëdreef 19</p>
 								<p>3565 BJ Utrecht</p>
 								<p>Email: rijschooladem@gmail.com</p>

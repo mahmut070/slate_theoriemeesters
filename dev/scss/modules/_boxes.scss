@@ -12,7 +12,7 @@
 .badge-motor{
 	position: relative;
 	max-width: 117px;
-	left: 22%;
+	left: 23%;
 	top: 3px;
 }
 
@@ -56,7 +56,7 @@
 	position: absolute;
 	width: 245px;
 	margin-left: 9px;
-	margin-top: 5px;
+	margin-top: 12px;
 }
 
 .box-brommer-content{
@@ -65,9 +65,9 @@
 	background-repeat: no-repeat;
 	height: 229px;
 	position: absolute;
-	width: 242px;
-	margin-left: 51px;
-	margin-top: 5px;	
+	width: 235px;
+	margin-left: 50px;
+	margin-top: 10px;
 }
 
 .box-motor-content{
@@ -78,7 +78,7 @@
 	position: absolute;
 	width: 238px;
 	margin-left: 9px;
-	margin-top: 5px;
+	margin-top: 12px;
 }
 
 .aanmeld-content-auto{
@@ -128,11 +128,12 @@
 	height: 96px;
 	color: #000000;
 	font-weight: 700;
-	padding: 27px 63px 39px 10px;
+	padding: 27px 31px 39px 10px;
 	background: url(../img/svg/button-bg-auto.svg);
 	background-size: 130px 54px;
 	background-repeat: no-repeat;
 	margin-bottom: 20px;
+	margin-left: 60px;
 }
 
 .aanmeld-button-motor{
@@ -145,6 +146,7 @@
 	background-size: 130px 54px;
 	background-repeat: no-repeat;
 	margin-bottom: 20px;
+	margin-left: 90px;
 }
 
 .aanmeld-button-brommer{
@@ -152,12 +154,13 @@
 	height: 96px;
 	color: #000000;
 	font-weight: 700;
-	padding: 27px 27px 39px 28px;
+	padding: 27px 14px 39px 28px;
 	background: url(../img/svg/button-bg-brommer.svg);
 	background-size: 130px 54px;
 	background-repeat: no-repeat;
 	margin-bottom: 20px;
 	margin-left: 50px;
+	margin-left: 100px;
 }
 
 
@@ -200,8 +203,9 @@
 
 // WEBSHOP product form with # and datepicker
 .form {
-	margin-left: 20px;
-	margin-right: 20px;
+	margin-left: 22px;
+	margin-right: -2px;
+	width: 83%;
 	.control-group {
 		@include clearfix;
 		display: block;
@@ -213,7 +217,8 @@
 		.controls input, .controls select {
 			display: inline;
 			float: right;
-			width: 40%;
+			width: 45%;
+			color: #000000;
 		}
 
 	}
@@ -227,14 +232,16 @@
 *********** Responsive mode ***********
 **************************************/
 
-@media all and (max-width: 600px) {
+/*Als screen max 450px is*/
+
+@media all and (max-width: 450px) {
 
 
 
 	.box-auto{
 		background: url(../img/box-auto.png) ;
 		background-repeat: no-repeat;
-		background-size: 302px 324px;
+		background-size: 100% 100%;
 		height: 324px;
 		width: 100%;
 	}
@@ -242,7 +249,7 @@
 	.box-brommer{
 		background: url(../img/box-brommer.png) ;
 		background-repeat: no-repeat;
-		background-size: 302px 324px;
+		background-size: 100% 100%;
 		height: 324px;
 		width: 100%;
 	}
@@ -250,7 +257,7 @@
 	.box-motor{
 		background: url(../img/box-motor.png) ;
 		background-repeat: no-repeat;
-		background-size: 302px 324px;
+		background-size: 100% 100%;
 		height: 324px;
 		width: 100%;
 		margin-left: 0;
@@ -262,8 +269,8 @@
 		background-repeat: no-repeat;
 		height: 228px;
 		position: absolute;
-		width: 267px;
-		margin-left: 17px;
+		width: 75%;
+		margin-left: 11px;
 		margin-top: 79px;
 	}
 
@@ -273,8 +280,8 @@
 		background-repeat: no-repeat;
 		height: 228px;
 		position: absolute;
-		width: 267px;
-		margin-left: 17px;
+		width: 75%;
+		margin-left: 11px;
 		margin-top: 79px;
 	}
 
@@ -284,8 +291,8 @@
 		background-repeat: no-repeat;
 		height: 228px;
 		position: absolute;
-		width: 267px;
-		margin-left: 17px;
+		width: 75%;
+		margin-left: 11px;
 		margin-top: 79px;
 	}
 
@@ -297,7 +304,7 @@
 		padding: 0px;
 		margin-top: 20px;
 		background: #636466;
-		padding-top:45px;
+		padding-top: 11px;
 	}
 
 	.aanmeld-button-brommer, .aanmeld-button-auto, .aanmeld-button-motor {
@@ -310,7 +317,8 @@
 		background-size: 282px 250px;
 		background-repeat: no-repeat;
 		margin-bottom: 20px;
-		margin-left:0;
+		margin-left:auto;
+		margin-right:auto;
 	}
 
 	.aanmeld-content-brommer table{
@@ -332,6 +340,242 @@
 		display: none;
 	}
 
+
+
+}
+
+
+
+/*Als screen tussen 450px en 600px is*/
+
+@media all and (min-width: 450px) and (max-width: 600px){
+
+
+	.box-auto{
+		background: url(../img/box-auto.png) ;
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		height: 429px;
+		width: 100%;
+	}
+
+	.box-brommer{
+		background: url(../img/box-brommer.png) ;
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		height: 429px;
+		width: 100%;
+	}
+
+	.box-motor{
+		background: url(../img/box-motor.png) ;
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		height: 429px;
+		width: 100%;
+		margin-left: 0;
+	}
+
+	.box-auto-content{
+		background: url(../img/auto-les.png) ;
+		background-size: 500px 342px;
+		background-repeat: no-repeat;
+		height: 331px;
+		position: absolute;
+		width: 87%;
+		margin-left: 11px;
+		margin-top: 90px;
+	}
+
+	.box-brommer-content{
+		background: url(../img/brommer-les.png) ;
+		background-size: 500px 342px;
+		background-repeat: no-repeat;
+		height: 331px;
+		position: absolute;
+		width: 87%;
+		margin-left: 11px;
+		margin-top: 90px;
+	}
+
+	.box-motor-content{
+		background: url(../img/motor-les.png) ;
+		background-size: 500px 342px;
+		background-repeat: no-repeat;
+		height: 331px;
+		position: absolute;
+		width: 87%;
+		margin-left: 11px;
+		margin-top: 90px;
+	}
+
+	.aanmeld-content-brommer, .aanmeld-content-auto, .aanmeld-content-motor{
+		width: 100%;
+		height: 100px;
+		margin-bottom: 16px;
+		display: inline-block;
+		padding: 0px;
+		margin-top: 20px;
+		background: #636466;
+		padding-top: 11px;
+	}
+
+	.aanmeld-button-brommer, .aanmeld-button-auto, .aanmeld-button-motor {
+		width: 135px;
+		height: 40px;
+		color: #000000;
+		font-weight: 700;
+		padding: 10px 10px 10px 10px;
+		background: #f9a21e;
+		background-size: 282px 250px;
+		background-repeat: no-repeat;
+		margin-bottom: 20px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+
+	.aanmeld-content-brommer table{
+		margin-top: -44px;
+		width:100%;
+	}
+
+	.aanmeld-content-auto table{
+		margin-top: -44px;
+		width:100%;
+	}
+
+	.aanmeld-content-motor table{
+		margin-top: -44px;
+		width:100%;
+	}
+
+	.badge-auto, .badge-brommer, .badge-motor {
+		display: none;
+	}
+
+
+
+}
+
+
+
+/*Als screen tussen 600px en 900px is*/
+@media all and (min-width: 600px) and (max-width: 900px){
+
+
+
+	.box-auto{
+		background: url(../img/box-auto.png) ;
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		height: 324px;
+		width: 100%;
+	}
+
+	.box-brommer{
+		background: url(../img/box-brommer.png) ;
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		height: 324px;
+		width: 100%;
+	}
+
+	.box-motor{
+		background: url(../img/box-motor.png) ;
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		height: 324px;
+		width: 100%;
+		margin-left: 0;
+	}
+
+	.box-auto-content{
+		background: url(../img/auto-les.png) ;
+		background-size: 202px 250px;
+		background-repeat: no-repeat;
+		height: 228px;
+		position: absolute;
+		width: 26%;
+		margin-left: 11px;
+		margin-top: 79px;
+	}
+
+	.box-brommer-content{
+		background: url(../img/brommer-les.png) ;
+		background-size: 202px 250px;
+		background-repeat: no-repeat;
+		height: 228px;
+		position: absolute;
+		width: 26%;
+		margin-left: 11px;
+		margin-top: 79px;
+	}
+
+	.box-motor-content{
+		background: url(../img/motor-les.png) ;
+		background-size: 202px 250px;
+		background-repeat: no-repeat;
+		height: 228px;
+		position: absolute;
+		width: 26%;
+		margin-left: 11px;
+		margin-top: 79px;
+	}
+
+	.aanmeld-content-brommer, .aanmeld-content-auto, .aanmeld-content-motor{
+		width: 100%;
+		height: 100px;
+		margin-bottom: 16px;
+		display: inline-block;
+		padding: 0px;
+		margin-top: 20px;
+		background: #636466;
+		padding-top: 11px;
+	}
+
+	.aanmeld-button-brommer, .aanmeld-button-auto, .aanmeld-button-motor {
+		width: 135px;
+		height: 40px;
+		color: #000000;
+		font-weight: 700;
+		padding: 10px 10px 10px 10px;
+		background: #f9a21e;
+		background-size: 282px 250px;
+		background-repeat: no-repeat;
+		margin-bottom: 20px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+
+	.aanmeld-content-brommer table{
+		margin-top: -44px;
+		width:100%;
+	}
+
+	.aanmeld-content-auto table{
+		margin-top: -44px;
+		width:100%;
+	}
+
+	.aanmeld-content-motor table{
+		margin-top: -44px;
+		width:100%;
+	}
+
+	.badge-auto, .badge-brommer, .badge-motor {
+		display: none;
+	}
+
+	.korting{
+		font-size: 14px;
+		line-height: 5px;
+		color: #f9a21e;
+		font-weight: 700;
+	}
+
+	.Footer p {
+		line-height: 1.4em;
+	}
 
 
 }
