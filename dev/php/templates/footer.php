@@ -6,7 +6,6 @@
                 <div class="u-gridCol3">
                 	<div class="social-button">
 						        <img src="<?php echo get_stylesheet_directory_uri();?>/img/svg/facebook.svg">
-						        <img class="logo-twitter" src="<?php echo get_stylesheet_directory_uri();?>/img/svg/twitter.svg">
                 	</div>
                 </div>
                 <div class="u-gridCol3">

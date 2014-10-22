@@ -70,11 +70,11 @@
 #invoice{
 	margin-top: 75px;
 	color: #000000;
-	background-image: -webkit-linear-gradient(top, #fda100 0, #d88900 100%);
+	background: #fda100;
 	border:0;
 
 	&:hover{
-		background: #fda100;
+		background: #ffb22c;
 	}
 }
 
@@ -119,17 +119,27 @@
 	display: none;
 }
 
+.product-row-60381 .label{
+	display: none;
+}
+
+.product-row-60382 .label{
+	display: none;
+}
+
 
 .coupon-title{
 	display: none;
 }
 
 #orderComment{
-	width: 440px;
+	width: 100%;;
 	height: 245px;
 }
 
-
+input, textarea, select{
+	color: #000000;
+}
 
 .table tr{
 	border-top: 1px solid #2A2A2A;
@@ -142,6 +152,34 @@
 }
 
 
+.deliverycosts-row, .transactioncosts-row, .product-category{
+	display: none;
+}
+
+.address-line{
+	width: 155px;
+}
+
+.control-label{
+	font-weight: bold;
+}
+
+.ideal-group p{
+	font-weight: bold;	
+}
+
+.data-content{
+	display: none;
+}
+
+.product-titel{
+	font-size:16px;
+	color: #f99f00;
+}
+
+.checkout{
+	font-weight: bold;
+}
 
 @media all and (max-width: 1000px) {
 	.header-space{
@@ -220,5 +258,17 @@
 		margin-top: 20px;
 		margin-left: 0px;
 		margin-bottom: 20px;
+	}
+
+	.checkout-table{
+		font-size:10px;
+	}
+
+	.checkout-amount{
+		width: 25px;
+	}
+
+	#order-form h3{
+		font-size: 24px;
 	}
 }

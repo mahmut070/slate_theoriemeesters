@@ -42,9 +42,10 @@ Template Name: Landingspagina
 
 				<div class="u-gridCol7 slideshow">
 					<div class="Slider-img">
-						<img src="<?php echo get_stylesheet_directory_uri();?>/img/slider/slider1.png">
-						<img src="<?php echo get_stylesheet_directory_uri();?>/img/slider/slider2.png">
-						<img src="<?php echo get_stylesheet_directory_uri();?>/img/slider/slider3.png">
+						<img src="<?php echo get_stylesheet_directory_uri();?>/img/slider/img1.png">
+						<img src="<?php echo get_stylesheet_directory_uri();?>/img/slider/img2.png">
+						<img src="<?php echo get_stylesheet_directory_uri();?>/img/slider/img3.png">
+						<img src="<?php echo get_stylesheet_directory_uri();?>/img/slider/img4.png">
 					</div>
 				</div>
 			</div>

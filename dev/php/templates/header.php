@@ -72,7 +72,7 @@
                                     <use xlink:href="#icon-menu2"></use>
                                 </svg>
                             </a>
-                            <a href="tel:0648038209" class="Navigation-menuToggle telefoon" id="js-navCollapse">
+                            <a href="tel:0654603807" class="Navigation-menuToggle telefoon" id="js-navCollapse">
                                 <svg class="Icon Icon--inline" viewBox="0 0 128 128">
                                     <use xlink:href="#icon-phone"></use>
                                 </svg>

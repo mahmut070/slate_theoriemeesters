@@ -23,7 +23,10 @@ Template Name: Homepage
 					<div class="mid-titel">
 						<img class="icon-vinkje" src="<?php echo get_stylesheet_directory_uri();?>/img/svg/vinkje.svg">
 						<p class="mid-titel-text">100% examengericht les</p>
-						<p class="mid-titel-caption">&#9679; Geen theorieboeken nodig</p>
+					</div>
+					<div class="mid-titel">
+						<img class="icon-vinkje" src="<?php echo get_stylesheet_directory_uri();?>/img/svg/vinkje.svg">
+						<p class="mid-titel-text">Geen theorieboeken nodig</p>
 					</div>
 					<div class="mid-titel">
 						<img class="icon-vinkje" src="<?php echo get_stylesheet_directory_uri();?>/img/svg/vinkje.svg">
@@ -42,9 +45,10 @@ Template Name: Homepage
 
 				<div class="u-gridCol7 slideshow">
 					<div class="Slider-img">
-						<img src="<?php echo get_stylesheet_directory_uri();?>/img/slider/slider1.png">
-						<img src="<?php echo get_stylesheet_directory_uri();?>/img/slider/slider2.png">
-						<img src="<?php echo get_stylesheet_directory_uri();?>/img/slider/slider3.png">
+						<img src="<?php echo get_stylesheet_directory_uri();?>/img/img1.png">
+						<img src="<?php echo get_stylesheet_directory_uri();?>/img/img2.png">
+						<img src="<?php echo get_stylesheet_directory_uri();?>/img/img3.png">
+						<img src="<?php echo get_stylesheet_directory_uri();?>/img/img4.png">
 					</div>
 				</div>
 			</div>
