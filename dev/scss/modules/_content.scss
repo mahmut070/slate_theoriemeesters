@@ -23,7 +23,7 @@
 	display: inline;
 	padding-left: 14px;
 	vertical-align: middle;
-	font-size: 20px;
+	font-size: 18px;
 }
 
 .mid-titel-caption{
@@ -55,6 +55,7 @@
 
  .checkout-amount{
  	color: #000000;
+ 	margin-right: 8px !important;
  }
 
 .checkout-table{
@@ -68,10 +69,26 @@
 }
 
 #invoice{
-	margin-top: 75px;
+	margin-top: 45px;
 	color: #000000;
 	background: #fda100;
 	border:0;
+	width:150px !important;
+	height:45px;
+	border-radius:5px;
+
+	&:hover{
+		background: #ffb22c;
+	}
+}
+
+.gform_button{
+	color: #000000;
+	background: #fda100;
+	border:0;
+	width:150px !important;
+	height:45px;
+	border-radius:5px;
 
 	&:hover{
 		background: #ffb22c;
@@ -134,15 +151,36 @@
 
 #orderComment{
 	width: 100%;;
-	height: 245px;
+	height: 163px;
 }
 
 input, textarea, select{
 	color: #000000;
 }
 
-.table tr{
-	border-top: 1px solid #2A2A2A;
+.table thead:first-child tr:first-child th{
+	border-top:0;
+}
+
+.table td{
+	border-top: 1px solid #2d2d2d;
+}
+
+.checkout-table td{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.text-right{
+	width: 118px;
+}
+
+fieldset{
+	border: 0px;
+}
+
+#order-form{
+	margin-bottom:45px;
 }
 
 .ProductOptionSelector{
@@ -151,13 +189,12 @@ input, textarea, select{
 	border: 0;
 }
 
-
 .deliverycosts-row, .transactioncosts-row, .product-category{
 	display: none;
 }
 
-.address-line{
-	width: 155px;
+.input-large{
+	width: 330px;
 }
 
 .control-label{
@@ -181,6 +218,19 @@ input, textarea, select{
 	font-weight: bold;
 }
 
+.Content-entry{
+	margin-bottom:45px;
+}
+
+label.error{
+	display: inline-block;
+	color: red;
+}
+
+.control-group{
+	margin-bottom: 10px;
+}
+
 @media all and (max-width: 1000px) {
 	.header-space{
 		margin-top: 55px;
@@ -192,6 +242,10 @@ input, textarea, select{
 
 	.menu{
 		width: 100%;
+	}
+
+	.text-right{
+		width: 118px;
 	}
 }
 
@@ -232,6 +286,10 @@ input, textarea, select{
   		width: 100%;
   	}
 
+  	.text-right{
+		width: 118px;
+	}
+
 }
 
 
@@ -270,5 +328,9 @@ input, textarea, select{
 
 	#order-form h3{
 		font-size: 24px;
+	}
+
+	.text-right {
+		width: 62px;
 	}
 }

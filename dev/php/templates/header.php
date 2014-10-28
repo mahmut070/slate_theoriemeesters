@@ -50,13 +50,19 @@
             <div class="u-gridRow header-space">
                 <div class="u-gridCol3">-
                 </div>
-                <div class="u-gridCol9 u-cf">
+                <div class="u-gridCol9 u-cf">                  
                     <div class="Header-telefoon">
                         <a href="tel:0648038209">
                             <img class="header-imgTel" src="<?php echo get_stylesheet_directory_uri(); ?>/img/svg/telefoon.svg"> 
                             <h4 class="header-textTel">06 54 60 38 07</h4>
                         </a>
                     </div>
+                    <div class="Header-email">
+                        <a href="mailto:info@theoriecity.nl">
+                            <img class="header-imgEmail" src="<?php echo get_stylesheet_directory_uri(); ?>/img/svg/email.svg"> 
+                            <h4 class="header-textEmail">info@theoriecity.nl</h4>
+                        </a>
+                    </div> 
                 </div>
             </div>
         </div>  
@@ -75,6 +81,11 @@
                             <a href="tel:0654603807" class="Navigation-menuToggle telefoon" id="js-navCollapse">
                                 <svg class="Icon Icon--inline" viewBox="0 0 128 128">
                                     <use xlink:href="#icon-phone"></use>
+                                </svg>
+                            </a>
+                            <a href="mailto:info@theoriecity.nl" class="Navigation-menuToggle mail show-more" id="js-navCollapse">
+                                <svg class="Icon Icon--inline" viewBox="0 0 128 128">
+                                <use xlink:href="#icon-mail2"></use>
                                 </svg>
                             </a>
                         </div>

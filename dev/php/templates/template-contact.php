@@ -14,7 +14,7 @@ Template Name: Contactpage
 				<div class="Content-text">
 
 					<div class="u-gridRow">					
-						<div class="adress u-gridCol4">
+						<div class="adress u-gridCol6">
 							<div class="adress-info">
 								<p>Theorie City</p>
 								<p>Californiëdreef 19</p>
@@ -24,8 +24,11 @@ Template Name: Contactpage
 							</div>
 	
 						</div>					
-						<div class="adress-map u-gridCol8">
-							<div id="map_canvas"></div>
+						<div class="u-gridCol6">
+							<p class="contact-page-p">Heeft u nog vragen? Neem dan hieronder contact met ons op. </p>
+							<?php the_content(); ?>
+						
+							<?php edit_post_link('Edit this entry.', '<p>', '</p>'); ?>
 						</div>
 
 					</div> <!-- /gridRow -->
@@ -33,11 +36,8 @@ Template Name: Contactpage
 					<div class="hr-style super-margin">
 						<hr>
 					</div>
-					<div class="u-gridRow">						
-						<p class="contact-page-p">Heeft u nog vragen? Neem dan hieronder contact met ons op. </p>
-						<?php the_content(); ?>
-					
-						<?php edit_post_link('Edit this entry.', '<p>', '</p>'); ?>
+					<div class="u-gridRow adress-map ">						
+							<div id="map_canvas"></div>
 					</div>
 
 				</div> <!-- content-text -->

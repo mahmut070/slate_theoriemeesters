@@ -5,7 +5,7 @@
                 </div>
                 <div class="u-gridCol3">
                 	<div class="social-button">
-						        <img src="<?php echo get_stylesheet_directory_uri();?>/img/svg/facebook.svg">
+						        <a target="_blank" href="https://nl-nl.facebook.com/rijschooladem.nl"><img src="<?php echo get_stylesheet_directory_uri();?>/img/svg/facebook.svg"></a>
                 	</div>
                 </div>
                 <div class="u-gridCol3">

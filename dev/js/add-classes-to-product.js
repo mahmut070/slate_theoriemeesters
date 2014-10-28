@@ -65,11 +65,11 @@ jQuery(document).ready(function($) {
 
 
   $('.addtocart').click(function(evt) {
-    if(!$('.skuInfo.alert-error').is(":visible")) {
-      window.location.href = "/checkout";  
+    if (!$('.skuInfo.alert-error').is(":visible")) {
+      window.location.href = "/checkout";
     } else {
       //alert('Deze dag zit al vol');
     }
-    
+
   });
 });

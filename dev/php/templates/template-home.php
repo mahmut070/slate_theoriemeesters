@@ -12,9 +12,13 @@ Template Name: Homepage
 				<div class="u-gridCol5">
 					<div class="mid-titel">
 						<img class="icon-vinkje" src="<?php echo get_stylesheet_directory_uri();?>/img/svg/vinkje.svg">
-						<p class="mid-titel-text">Haal je theorie in één dag</p>
+						<p class="mid-titel-text">Theoriecursus en -examen op 1 dag</p>
 						<p class="mid-titel-caption">&#9679; 's ochtends theoriecursus</p>
 						<p class="mid-titel-caption">&#9679; 's middags theorie-examen</p>
+					</div>
+					<div class="mid-titel">
+						<img class="icon-vinkje" src="<?php echo get_stylesheet_directory_uri();?>/img/svg/vinkje.svg">
+						<p class="mid-titel-text">Voor auto, motor en scooter</p>
 					</div>
 					<div class="mid-titel">
 						<img class="icon-vinkje" src="<?php echo get_stylesheet_directory_uri();?>/img/svg/vinkje.svg">
@@ -27,10 +31,6 @@ Template Name: Homepage
 					<div class="mid-titel">
 						<img class="icon-vinkje" src="<?php echo get_stylesheet_directory_uri();?>/img/svg/vinkje.svg">
 						<p class="mid-titel-text">Geen theorieboeken nodig</p>
-					</div>
-					<div class="mid-titel">
-						<img class="icon-vinkje" src="<?php echo get_stylesheet_directory_uri();?>/img/svg/vinkje.svg">
-						<p class="mid-titel-text">In één dag klaar!</p>
 					</div>
 					<div class="mid-titel">
 						<img class="icon-vinkje" src="<?php echo get_stylesheet_directory_uri();?>/img/svg/vinkje.svg">
