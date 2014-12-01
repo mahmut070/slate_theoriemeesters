@@ -43,6 +43,9 @@ jQuery(document).ready(function($) {
 				   '			</div>'+
 				   '		</div>'+
 				   '</div>';	
+
+
+
 	$('.product-60381 .product-image').html(htmlMotor);
 	$('.product-60382 .product-image').html(htmlBrommer);
 	$('.product-60383 .product-image').html(htmlAuto);
