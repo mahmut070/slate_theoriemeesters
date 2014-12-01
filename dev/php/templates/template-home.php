@@ -12,9 +12,13 @@ Template Name: Homepage
 				<div class="u-gridCol5">
 					<div class="mid-titel">
 						<img class="icon-vinkje" src="<?php echo get_stylesheet_directory_uri();?>/img/svg/vinkje.svg">
-						<p class="mid-titel-text">Haal je theorie in één dag</p>
-						<p class="mid-titel-caption">&#9679; 'S ochtend theorie cursus</p>
-						<p class="mid-titel-caption">&#9679; 'S middags theorie examen</p>
+						<p class="mid-titel-text">Haal je theorie in 1 dag</p>
+						<p class="mid-titel-caption">&#9679; 's ochtends theoriecursus</p>
+						<p class="mid-titel-caption">&#9679; 's middags theorie-examen</p>
+					</div>
+					<div class="mid-titel">
+						<img class="icon-vinkje" src="<?php echo get_stylesheet_directory_uri();?>/img/svg/vinkje.svg">
+						<p class="mid-titel-text">Auto, motor en scooter</p>
 					</div>
 					<div class="mid-titel">
 						<img class="icon-vinkje" src="<?php echo get_stylesheet_directory_uri();?>/img/svg/vinkje.svg">
@@ -23,11 +27,10 @@ Template Name: Homepage
 					<div class="mid-titel">
 						<img class="icon-vinkje" src="<?php echo get_stylesheet_directory_uri();?>/img/svg/vinkje.svg">
 						<p class="mid-titel-text">100% examengericht les</p>
-						<p class="mid-titel-caption">&#9679; Geen theorieboeken nodig</p>
 					</div>
 					<div class="mid-titel">
 						<img class="icon-vinkje" src="<?php echo get_stylesheet_directory_uri();?>/img/svg/vinkje.svg">
-						<p class="mid-titel-text">In één dag klaar!</p>
+						<p class="mid-titel-text">Geen theorieboeken nodig</p>
 					</div>
 					<div class="mid-titel">
 						<img class="icon-vinkje" src="<?php echo get_stylesheet_directory_uri();?>/img/svg/vinkje.svg">
@@ -42,9 +45,10 @@ Template Name: Homepage
 
 				<div class="u-gridCol7 slideshow">
 					<div class="Slider-img">
-						<img src="<?php echo get_stylesheet_directory_uri();?>/img/slider/slider1.png">
-						<img src="<?php echo get_stylesheet_directory_uri();?>/img/slider/slider2.png">
-						<img src="<?php echo get_stylesheet_directory_uri();?>/img/slider/slider3.png">
+						<img src="<?php echo get_stylesheet_directory_uri();?>/img/img1.png">
+						<img src="<?php echo get_stylesheet_directory_uri();?>/img/img2.png">
+						<img src="<?php echo get_stylesheet_directory_uri();?>/img/img3.png">
+						<img src="<?php echo get_stylesheet_directory_uri();?>/img/img4.png">
 					</div>
 				</div>
 			</div>
@@ -64,7 +68,7 @@ Template Name: Homepage
 			</article>
 		<?php endwhile; endif; ?>-->
 		
-				<div class="u-gridCol4 box">
+				<!--<div class="u-gridCol4 box">
 					<div class="box-auto">
 						<img class="badge-auto" src="<?php echo get_stylesheet_directory_uri();?>/img/badge-auto.png">	
 						<div class="box-auto-content">
@@ -196,12 +200,12 @@ Template Name: Homepage
 
 
 
-			</div>
+			</div>-->
 
 
 		</div>
 			<?php echo do_shortcode('[webshop_categories id="1263" render_options_on_overview="true"]'); ?>
-			<p class="eind-text">Snel je theorie halen in één dag voor de auto, brommer en motor! <br/>
+			<p class="eind-text">Snel je theorie halen in 1 dag voor de auto, motor en scooter! <br/>
 			Meteen  na de theoriecursus doe je theorie-examen bij het CBR. </p>
 	</div>
 

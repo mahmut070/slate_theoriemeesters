@@ -82,7 +82,8 @@
 @media screen and (max-width: $gridColSpan12Breakpoint){
 	.u-gridCol1, .u-gridCol2, .u-gridCol3, .u-gridCol4, .u-gridCol5,
 	.u-gridCol6, .u-gridCol7, .u-gridCol8, .u-gridCol9, .u-gridCol10,
-	.u-gridCol11 {
+	.u-gridCol11, .span1, .span2, .span3, .span4, .span5, .span6, .span7, 
+	.span8, .span9, .span10, .span11, .span12 {
 		@include span-columns(12);
 	}
 

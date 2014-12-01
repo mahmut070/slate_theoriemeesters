@@ -11,7 +11,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <!-- Title -->
-    <title><?php wp_title( '|', true, 'right' ); ?><?php echo get_bloginfo( 'name' ); ?></title>
+    <title><?php wp_title( '|', true, 'right' ); ?></title>
 
     <!-- Mobile devices -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -36,9 +36,65 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.min.js"></script>
     <!-- /build -->
 
+    <?php if(is_page('success')) { ?>
+                <!-- Google Code for Aanmelding afgeronnd Conversion Page -->
+        <script type="text/javascript">
+        /* <![CDATA[ */
+        var google_conversion_id = 1000647627;
+        var google_conversion_language = "en";
+        var google_conversion_format = "2";
+        var google_conversion_color = "ffffff";
+        var google_conversion_label = "2ZvUCP3HhQoQy9eS3QM";
+        var google_remarketing_only = false;
+        /* ]]> */
+        </script>
+        <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+        </script>
+        <noscript>
+        <div style="display:inline;">
+        <img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/1000647627/?label=2ZvUCP3HhQoQy9eS3QM&amp;guid=ON&amp;script=0"/>
+        </div>
+        </noscript>
+    <?php }?>
+
+<script>
+
+    function modifyValidationRules(opts){
+        opts.rules.companyName = { required : true };
+        opts.rules.VATnumber = { required : true };
+        opts.messages.companyName = { required : "Dit veld is verplicht."};
+        opts.messages.VATnumber = { required : "Dit veld is verplicht."};
+
+
+        return opts;
+    }
+    </script>
+
+
     <!-- Wordpress head function -->
     <?php wp_head(); ?>
     <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+
+
+	<script type="text/javascript">
+		onProductAdded = function(productData) {
+		   window.location.href = "/checkout";
+		}
+
+		customAddProductValidator = function(event, productData){
+			var $ = jQuery;
+			var clicked = $(event.currentTarget);
+			var prodId = clicked.attr('product-id');
+			var quant = parseInt($('#product-amount-'+prodId).val());
+
+			var herexamenSelected = parseInt($('.product-'+prodId).find('.ProductOptionSelector[option_id="34336"]').first().val()) == 286358
+			if(quant > 1 && herexamenSelected){
+				alert('Het is niet mogelijk om meerdere herkansingen te bestellen. Indien je dit wilt doen, dien je twee losse bestellingen te doen.');
+				return false;
+			}
+			return true;
+		}
+	</script>
 
   </head>
   <body <?php body_class(); ?> >
@@ -50,13 +106,19 @@
             <div class="u-gridRow header-space">
                 <div class="u-gridCol3">-
                 </div>
-                <div class="u-gridCol9 u-cf">
+                <div class="u-gridCol9 u-cf">                  
                     <div class="Header-telefoon">
-                        <a href="tel:0648038209">
+                        <a href="tel:0654603807">
                             <img class="header-imgTel" src="<?php echo get_stylesheet_directory_uri(); ?>/img/svg/telefoon.svg"> 
-                            <h4 class="header-textTel">06 546 03 807</h4>
+                            <h4 class="header-textTel">06 54 60 38 07</h4>
                         </a>
                     </div>
+                    <div class="Header-email">
+                        <a href="mailto:info@theoriecity.nl">
+                            <img class="header-imgEmail" src="<?php echo get_stylesheet_directory_uri(); ?>/img/svg/email.svg"> 
+                            <h4 class="header-textEmail">info@theoriecity.nl</h4>
+                        </a>
+                    </div> 
                 </div>
             </div>
         </div>  
@@ -65,16 +127,21 @@
                 <div class="u-gridRow">
                     <div class="u-gridCol3 space">x
                     </div>
-                    <div class="u-gridCol9">
+                    <div class="u-gridCol9 menu">
                         <div class="u-cf">
                             <a class="Navigation-menuToggle" id="js-navCollapse">
                                 <svg class="Icon Icon--inline" viewBox="0 0 128 128">
                                     <use xlink:href="#icon-menu2"></use>
                                 </svg>
                             </a>
-                            <a href="tel:0648038209" class="Navigation-menuToggle telefoon" id="js-navCollapse">
+                            <a href="tel:0654603807" class="Navigation-menuToggle telefoon" id="js-navCollapse">
                                 <svg class="Icon Icon--inline" viewBox="0 0 128 128">
                                     <use xlink:href="#icon-phone"></use>
+                                </svg>
+                            </a>
+                            <a href="mailto:info@theoriecity.nl" class="Navigation-menuToggle mail show-more" id="js-navCollapse">
+                                <svg class="Icon Icon--inline" viewBox="0 0 128 128">
+                                <use xlink:href="#icon-mail2"></use>
                                 </svg>
                             </a>
                         </div>

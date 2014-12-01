@@ -5,8 +5,7 @@
                 </div>
                 <div class="u-gridCol3">
                 	<div class="social-button">
-						        <img src="<?php echo get_stylesheet_directory_uri();?>/img/svg/facebook.svg">
-						        <img class="logo-twitter" src="<?php echo get_stylesheet_directory_uri();?>/img/svg/twitter.svg">
+						        <a target="_blank" href="https://nl-nl.facebook.com/rijschooladem.nl"><img src="<?php echo get_stylesheet_directory_uri();?>/img/svg/facebook.svg"></a>
                 	</div>
                 </div>
                 <div class="u-gridCol3">
@@ -24,20 +23,19 @@
 
 			<?php if ( is_active_sidebar( 'footer-widgets' ) ) : ?>
                 <div class="u-gridCol6">
-					<h4 class=" widgettitle">Locaties</h4>
-					<p>Hazelkamp 36, 6836 BA Arnhem. (Gratis parkeren!)<p>
-					<p>Californiëdreef 19, 3565 BJ Utrecht. (Gratis parkeren!)</p>
-					<p>Moezelhavenweg 29, 1043 AM Amsterdam. (Gratis parkeren!)</p>
+        					<h4 class=" widgettitle">Locaties</h4>
+        					<p>Hazelkamp 36, 6836 BA Arnhem. (Gratis parkeren!)<p>
+        					<p>Californiëdreef 19, 3565 BJ Utrecht. (Gratis parkeren!)</p>
+        					<p>Moezelhavenweg 29, 1043 AM Amsterdam. (Gratis parkeren!)</p>
                 </div>
                 <div class="u-gridCol3">
-					<h4 class=" widgettitle">Informatie</h4>
-					<p>Telefoon: 06 54603807<p>
-					<p>KVK nummer: 34225586</p>
-					<p>Rijschoolnummer: 3526X8</p>
-					<p>BTW nummer: NL146409929B01</p>
+        					<h4 class=" widgettitle">Informatie</h4>
+        					<p>KVK nummer: 34225586</p>
+        					<p>BTW: NL146409929B01</p>
+                  <p>Rijschoolnummer: 3526X8</p>
                 </div>
                 <div class="u-gridCol3">
-				 	<?php dynamic_sidebar( 'footer-widgets' ); ?>
+				        	<?php dynamic_sidebar( 'footer-widgets' ); ?>
                 </div>
 			<?php endif; ?>
 		</div>
@@ -69,6 +67,8 @@
   <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery.bxslider.js"></script>
   <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery.bxslider.start.js"></script> 
   <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/add-classes-to-product.js"></script> 
+  <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/ga.js"></script> 
+  <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/change-text.js"></script> 
   <script src="http://localhost:35729/livereload.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/html-inspector/0.8.0/html-inspector.js"></script>
   <script>HTMLInspector.inspect();</script>

@@ -16,6 +16,8 @@ function initialize() {
   }
   map = new google.maps.Map(mapCanvas, mapOptions);
   codeAddress('Hazelkamp 36, 6836 BA Arnhem');
+  codeAddress('Hazenkamp 10, 6836 BA Arnhem');
+
 }
 
 
@@ -28,7 +30,8 @@ function codeAddress(address) {
       map.setCenter(results[0].geometry.location);
       var marker = new google.maps.Marker({
         map: map,
-        position: results[0].geometry.location
+        position: results[0].geometry.location,
+        icon: 'http://maps.google.com/mapfiles/ms/icons/yellow-dot.png'
       });
     }
   });
@@ -47,6 +50,7 @@ function initialize2() {
   }
   map2 = new google.maps.Map(mapCanvas, mapOptions);
   codeAddress2('Californiëdreef 19, 3565 BJ Utrecht');
+  codeAddress2('Mississippidreef 151a, 3565 CE Utrecht');
 }
 
 
@@ -59,7 +63,8 @@ function codeAddress2(address) {
       map2.setCenter(results[0].geometry.location);
       var marker = new google.maps.Marker({
         map: map2,
-        position: results[0].geometry.location
+        position: results[0].geometry.location,
+        icon: 'http://maps.google.com/mapfiles/ms/icons/yellow-dot.png'
       });
     }
   });
@@ -72,10 +77,11 @@ function initialize3() {
   var mapOptions = {
     center: new google.maps.LatLng(44.5403, 1.5463),
     zoom: 12,
-    mapTypeId: google.maps.MapTypeId.ROADMAP
+    mapTypeId: google.maps.MapTypeId.ROADMAP,
   }
   map3 = new google.maps.Map(mapCanvas, mapOptions);
   codeAddress3('Moezelhavenweg 29, 1043 AM Amsterdam');
+  codeAddress3('Naritaweg 150, 1043 CA Amsterdam');
 }
 
 
@@ -88,7 +94,8 @@ function codeAddress3(address) {
       map3.setCenter(results[0].geometry.location);
       var marker = new google.maps.Marker({
         map: map3,
-        position: results[0].geometry.location
+        position: results[0].geometry.location,
+        icon: 'http://maps.google.com/mapfiles/ms/icons/yellow-dot.png'
       });
     }
   });

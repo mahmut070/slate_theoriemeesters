@@ -40,6 +40,11 @@
 	float:left;
   }
 
+  .mail{
+  	float:left;
+  	margin-left: 20px;
+  }
+
 // *************************************
 //
 // responsive-nav
@@ -85,6 +90,14 @@
 	//  Adjust the sizes and colors for erverything to your choice
 	.Navigation {	
 		position: relative;
+		background-color: #090909;
+	}
+
+	.Header-grey-bar{
+		background-color: #090909;
+		margin-bottom: 20px;
+		border-top: 2px solid white;
+		border-bottom: 2px solid white;
 	}
 
 	nav{
@@ -98,7 +111,6 @@
         border: 0px solid;
         box-shadow: 0 0 0 #fff;
 
-
 	}
 
 	.Navigation-listItem {
@@ -109,14 +121,15 @@
 		width: 100%;
 		border-right: 0;
 		margin-top: 10px;
-
+		  &:first-of-type {
+		    margin-left: 0px;
+		  }
 		&:last-of-type {
 			margin-bottom: 15px;
 		}
 
 		&:hover {
-			//background-color: $c-blue;
-
+			background-color: #090909;
 			-webkit-transition:all 0.2s ease;
 			-moz-transition:all 0.2s ease;
 			-o-transition:all 0.2s ease;
@@ -136,6 +149,11 @@
         }
     }
 
+    .home-button{
+    	margin-top: -5px;
+		margin-bottom: -5px;
+    }
+
     .Navigation-link {
         line-height: 30px;
 		color: white;
@@ -146,6 +164,8 @@
 		margin: 0;
 		font-weight: 400;
 		letter-spacing: 1.7px;
+		background-color: #2e2e2e;
+		border-radius: 10px;
 	    &:hover {
             color: white;
         }
