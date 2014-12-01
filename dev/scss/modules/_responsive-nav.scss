@@ -42,7 +42,7 @@
 
   .mail{
   	float:left;
-  	margin-left: 40px;
+  	margin-left: 20px;
   }
 
 // *************************************
@@ -121,7 +121,9 @@
 		width: 100%;
 		border-right: 0;
 		margin-top: 10px;
-
+		  &:first-of-type {
+		    margin-left: 0px;
+		  }
 		&:last-of-type {
 			margin-bottom: 15px;
 		}

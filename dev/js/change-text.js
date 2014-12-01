@@ -9,7 +9,7 @@ jQuery(document).ready(
     $('.control-label[for="VATnumber"]').html('BSN nummer:');
     $('.control-label[for="companyName"]').html('Geboortedatum:');
     $('.checkout-right .row-fluid:nth-of-type(2)').hide();
-
+    $('.ordercomment-title').html('Extra gegevens');
     var i = 0;
     $('.subtotal-row').each(function() {
       if (i < 2) {
@@ -94,6 +94,7 @@ jQuery(document).ready(
           });
 
           $(this).html(selectList);
+          $(this).children('option').first().attr("selected", "selected");
 
         }
       });

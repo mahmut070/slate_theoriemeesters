@@ -14,17 +14,26 @@ Template Name: Contactpage
 				<div class="Content-text">
 
 					<div class="u-gridRow">					
-						<div class="adress u-gridCol6">
+						<div class="adress u-gridCol4">
 							<div class="adress-info">
-								<p>Theorie City</p>
+								<b>Theorie City</b>
+								<p>Tel: 06 54 60 38 07</p></br>
+
+								<p>Locatie Arnhem</p>
+								<p>Hazelkamp 36</p>
+								<p>6836 BA Arnhem</p></br>
+
+								<p>Locatie Utrecht</p>
 								<p>Californiëdreef 19</p>
-								<p>3565 BJ Utrecht</p>
-								<p>Email: rijschooladem@gmail.com</p>
-								<p>Tel: 0654603807</p>
+								<p>3565 BJ Utrecht</p></br>
+
+								<p>Locatie Amsterdam</p>
+								<p>Moezelhavenweg 29</p>
+								<p>1043 AM Amsterdam</p>								
 							</div>
 	
 						</div>					
-						<div class="u-gridCol6">
+						<div class="u-gridCol8">
 							<p class="contact-page-p">Heeft u nog vragen? Neem dan hieronder contact met ons op. </p>
 							<?php the_content(); ?>
 						
@@ -32,13 +41,6 @@ Template Name: Contactpage
 						</div>
 
 					</div> <!-- /gridRow -->
-
-					<div class="hr-style super-margin">
-						<hr>
-					</div>
-					<div class="u-gridRow adress-map ">						
-							<div id="map_canvas"></div>
-					</div>
 
 				</div> <!-- content-text -->
 			</div>

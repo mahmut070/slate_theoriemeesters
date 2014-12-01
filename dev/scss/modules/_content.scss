@@ -23,7 +23,7 @@
 	display: inline;
 	padding-left: 14px;
 	vertical-align: middle;
-	font-size: 18px;
+	font-size: 19px;
 }
 
 .mid-titel-caption{
@@ -49,6 +49,10 @@
 	color: #000000;
 }
 
+.gform_wrapper .top_label input.medium, .gform_wrapper .top_label select.medium {
+	width: 100% !important;
+}
+
 .controls{
  	color: #ffffff;
  }
@@ -69,29 +73,53 @@
 }
 
 #invoice{
-	margin-top: 45px;
+	width: 135px;
+	height: 96px !important;
 	color: #000000;
-	background: #fda100;
-	border:0;
-	width:150px !important;
-	height:45px;
-	border-radius:5px;
-
+	font-weight: 700;
+	padding: 16px 22px 37px 19px;
+	background: url(../img/svg/button-bg-motor.svg);
+	background-size: 130px 54px;
+	background-repeat: no-repeat;
+	margin-bottom: 20px;
+	border: 0;
 	&:hover{
-		background: #ffb22c;
+		width: 135px;
+		height: 96px !important;
+		color: #000000;
+		font-weight: 700;
+		padding: 16px 22px 37px 19px;
+		background: url(../img/svg/button-bg-motor.svg);
+		background-size: 130px 54px;
+		background-repeat: no-repeat;
+		margin-bottom: 20px;
+		border: 0;
 	}
 }
 
 .gform_button{
+	width: 135px;
+	height: 96px !important;
 	color: #000000;
-	background: #fda100;
-	border:0;
-	width:150px !important;
-	height:45px;
-	border-radius:5px;
+	font-weight: 700;
+	padding: 16px 22px 37px 19px;
+	background: url(../img/svg/button-bg-motor.svg);
+	background-size: 130px 54px;
+	background-repeat: no-repeat;
+	margin-bottom: 20px;
+	border: 0;
 
 	&:hover{
-		background: #ffb22c;
+		width: 135px;
+		height: 96px !important;
+		color: #000000;
+		font-weight: 700;
+		padding: 16px 22px 37px 19px;
+		background: url(../img/svg/button-bg-motor.svg);
+		background-size: 130px 54px;
+		background-repeat: no-repeat;
+		margin-bottom: 20px;
+		border: 0;
 	}
 }
 
@@ -151,7 +179,7 @@
 
 #orderComment{
 	width: 100%;;
-	height: 163px;
+	height: 235px;
 }
 
 input, textarea, select{
@@ -222,6 +250,7 @@ fieldset{
 	margin-bottom:45px;
 }
 
+
 label.error{
 	display: inline-block;
 	color: red;
@@ -230,6 +259,36 @@ label.error{
 .control-group{
 	margin-bottom: 10px;
 }
+
+.adres-titel{
+	font-weight: bold;
+	font-size: 16px;
+	margin-top: 40px;
+}
+
+.InfluencesSKU, .ProductOptionSelector, .product-amount-60383, .product-amount-60381, .product-amount-60382{
+	width: 125px !important;
+}
+
+.qr_code{
+	width: 200px;
+	margin-top:20px;
+}
+
+#nav_menu-2{
+	visibility:hidden;
+}
+
+
+
+@media all and (min-width: 1200px) {
+	.product-row{
+	  width: 952px;
+	  margin-left: -14px;
+	}
+}
+
+
 
 @media all and (max-width: 1000px) {
 	.header-space{
@@ -333,4 +392,9 @@ label.error{
 	.text-right {
 		width: 62px;
 	}
+
+	.input-large{
+		width: 100%;
+	}
 }
+

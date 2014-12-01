@@ -12,13 +12,13 @@ Template Name: Homepage
 				<div class="u-gridCol5">
 					<div class="mid-titel">
 						<img class="icon-vinkje" src="<?php echo get_stylesheet_directory_uri();?>/img/svg/vinkje.svg">
-						<p class="mid-titel-text">Theoriecursus en -examen op 1 dag</p>
+						<p class="mid-titel-text">Haal je theorie in 1 dag</p>
 						<p class="mid-titel-caption">&#9679; 's ochtends theoriecursus</p>
 						<p class="mid-titel-caption">&#9679; 's middags theorie-examen</p>
 					</div>
 					<div class="mid-titel">
 						<img class="icon-vinkje" src="<?php echo get_stylesheet_directory_uri();?>/img/svg/vinkje.svg">
-						<p class="mid-titel-text">Voor auto, motor en scooter</p>
+						<p class="mid-titel-text">Auto, motor en scooter</p>
 					</div>
 					<div class="mid-titel">
 						<img class="icon-vinkje" src="<?php echo get_stylesheet_directory_uri();?>/img/svg/vinkje.svg">
@@ -205,7 +205,7 @@ Template Name: Homepage
 
 		</div>
 			<?php echo do_shortcode('[webshop_categories id="1263" render_options_on_overview="true"]'); ?>
-			<p class="eind-text">Snel je theorie halen in één dag voor de auto, motor en scooter! <br/>
+			<p class="eind-text">Snel je theorie halen in 1 dag voor de auto, motor en scooter! <br/>
 			Meteen  na de theoriecursus doe je theorie-examen bij het CBR. </p>
 	</div>
 

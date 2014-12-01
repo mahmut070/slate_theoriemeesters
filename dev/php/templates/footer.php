@@ -30,10 +30,9 @@
                 </div>
                 <div class="u-gridCol3">
         					<h4 class=" widgettitle">Informatie</h4>
-        					<p>Telefoon: 06 54603807<p>
         					<p>KVK nummer: 34225586</p>
-        					<p>Rijschoolnummer: 3526X8</p>
         					<p>BTW: NL146409929B01</p>
+                  <p>Rijschoolnummer: 3526X8</p>
                 </div>
                 <div class="u-gridCol3">
 				        	<?php dynamic_sidebar( 'footer-widgets' ); ?>

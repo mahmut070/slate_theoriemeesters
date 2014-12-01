@@ -17,6 +17,9 @@ jQuery(document).ready(function($) {
     infiniteLoop: true,
     hideControlOnEnd: false,
     touchEnabled: true,
-    pager: false
+    pager: false,
+    onSliderLoad: function() {
+      $(".slideshow").css("visibility", "visible");
+    }
   });
 });

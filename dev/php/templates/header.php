@@ -11,7 +11,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <!-- Title -->
-    <title><?php wp_title( '|', true, 'right' ); ?><?php echo get_bloginfo( 'name' ); ?></title>
+    <title><?php wp_title( '|', true, 'right' ); ?></title>
 
     <!-- Mobile devices -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -36,6 +36,41 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.min.js"></script>
     <!-- /build -->
 
+    <?php if(is_page('success')) { ?>
+                <!-- Google Code for Aanmelding afgeronnd Conversion Page -->
+        <script type="text/javascript">
+        /* <![CDATA[ */
+        var google_conversion_id = 1000647627;
+        var google_conversion_language = "en";
+        var google_conversion_format = "2";
+        var google_conversion_color = "ffffff";
+        var google_conversion_label = "2ZvUCP3HhQoQy9eS3QM";
+        var google_remarketing_only = false;
+        /* ]]> */
+        </script>
+        <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+        </script>
+        <noscript>
+        <div style="display:inline;">
+        <img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/1000647627/?label=2ZvUCP3HhQoQy9eS3QM&amp;guid=ON&amp;script=0"/>
+        </div>
+        </noscript>
+    <?php }?>
+
+    <script>
+    function modifyValidationRules(opts){
+
+        opts.rules.companyName = { required : true };
+        opts.rules.VATnumber = { required : true };
+        opts.messages.companyName = { required : "Dit veld is verplicht."};
+        opts.messages.VATnumber = { required : "Dit veld is verplicht."};
+
+
+        return opts;
+    }
+    </script>
+
+
     <!-- Wordpress head function -->
     <?php wp_head(); ?>
     <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
@@ -52,7 +87,7 @@
                 </div>
                 <div class="u-gridCol9 u-cf">                  
                     <div class="Header-telefoon">
-                        <a href="tel:0648038209">
+                        <a href="tel:0654603807">
                             <img class="header-imgTel" src="<?php echo get_stylesheet_directory_uri(); ?>/img/svg/telefoon.svg"> 
                             <h4 class="header-textTel">06 54 60 38 07</h4>
                         </a>
