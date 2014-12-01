@@ -82,14 +82,26 @@
 		}
 
 		customAddProductValidator = function(event, productData){
+
 			var $ = jQuery;
 			var clicked = $(event.currentTarget);
 			var prodId = clicked.attr('product-id');
 			var quant = parseInt($('#product-amount-'+prodId).val());
 
+			var extraPrice = parseInt($('.product-'+prodId).find('.ProductOptionSelector option:selected').first().attr('extraprice'));
+
+//			console.log('extraprice '+extraPrice);
+
+
+
 			var herexamenSelected = parseInt($('.product-'+prodId).find('.ProductOptionSelector[option_id="34336"]').first().val()) == 286358
 			if(quant > 1 && herexamenSelected){
 				alert('Het is niet mogelijk om meerdere herkansingen te bestellen. Indien je dit wilt doen, dien je twee losse bestellingen te doen.');
+				return false;
+			}
+
+			if(quant > 1 && extraPrice != null && extraPrice != undefined && extraPrice < 0) {
+				alert('Het is niet mogelijk om meerdere van deze dag-aanbieding in één keer te bestellen. Indien je dit wilt doen, dien je twee losse bestellingen te doen.');
 				return false;
 			}
 			return true;
