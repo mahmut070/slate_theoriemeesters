@@ -10,37 +10,7 @@ Template Name: Landingspagina
 		<div class="u-gridRow">
 			<div class="slider">
 				<div class="u-gridCol5">
-					<div class="mid-titel">
-						<img class="icon-vinkje" src="<?php echo get_stylesheet_directory_uri();?>/img/svg/vinkje.svg">
-						<p class="mid-titel-text">Haal je theorie in 1 dag</p>
-						<p class="mid-titel-caption">&#9679; 's ochtends theoriecursus</p>
-						<p class="mid-titel-caption">&#9679; 's middags theorie-examen</p>
-					</div>
-					<div class="mid-titel">
-						<img class="icon-vinkje" src="<?php echo get_stylesheet_directory_uri();?>/img/svg/vinkje.svg">
-						<p class="mid-titel-text">Auto, motor en scooter</p>
-					</div>
-					<div class="mid-titel">
-						<img class="icon-vinkje" src="<?php echo get_stylesheet_directory_uri();?>/img/svg/vinkje.svg">
-						<p class="mid-titel-text">100% slagingsgarantie</p>
-					</div>
-					<div class="mid-titel">
-						<img class="icon-vinkje" src="<?php echo get_stylesheet_directory_uri();?>/img/svg/vinkje.svg">
-						<p class="mid-titel-text">100% examengericht les</p>
-					</div>
-					<div class="mid-titel">
-						<img class="icon-vinkje" src="<?php echo get_stylesheet_directory_uri();?>/img/svg/vinkje.svg">
-						<p class="mid-titel-text">Geen theorieboeken nodig</p>
-					</div>
-					<div class="mid-titel">
-						<img class="icon-vinkje" src="<?php echo get_stylesheet_directory_uri();?>/img/svg/vinkje.svg">
-						<p class="mid-titel-text">De 1ste keer niet geslaagd?</p>
-						<p class="mid-titel-caption">&#9679; Dan mag je onbeperkt cursus volgen</p>
-					</div>
-					<div class="mid-titel">
-						<img class="icon-vinkje" src="<?php echo get_stylesheet_directory_uri();?>/img/svg/vinkje.svg">
-						<p class="mid-titel-text">Cursisten uit heel Nederland!</p>
-					</div>
+					<?php dynamic_sidebar('USP'); ?>
 				</div>
 
 				<div class="u-gridCol7 slideshow">

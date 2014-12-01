@@ -64,7 +64,7 @@ jQuery(document).ready(function($) {
     '</div>';
   $('.product-60381 .product-image').html(htmlMotor);
   $('.product-60382 .product-image').html(htmlBrommer);
-  $('.product-60383 .product-image').html(htmlAuto); 
+  $('.product-60383 .product-image').html(htmlAuto);
 
   //wrap .form in div
   $('.product-60381 form.form').wrap('<div class="aanmeld-content-motor"></div>');

@@ -16,6 +16,18 @@ if($initialized == null){
 	$initialized = false;
 }
 
+if (function_exists('register_sidebar')) {
+	register_sidebar(array(
+		'name'=> 'USP',
+		'id' => 'home_usp',
+		'before_widget' => '<li id="%1$s" class="widget %2$s">',
+		'after_widget' => '</li>',
+		'before_title' => '<h2 class="offscreen">',
+		'after_title' => '</h2>',
+	));
+
+}
+
 if(is_admin() && !$initialized){
 	  include_once('includes/initialize_pages.php');
 	
