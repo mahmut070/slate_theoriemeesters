@@ -283,7 +283,24 @@ label.error{
 	list-style-type: none;
 }
 
+.omschrijving b{
+	color: #f9a119;
+}
 
+
+.product-60383, .product-60381, .product-60382{
+	margin-top: 50px;
+}
+
+.aanbieding{
+	background: #262626;
+	color: #ffa200;
+	border-radius: 3px;
+	padding: 10px;
+	font-size: 20px;
+	margin-top: 25px;
+	text-align: center;
+}
 
 @media all and (min-width: 1200px) {
 	.product-row{

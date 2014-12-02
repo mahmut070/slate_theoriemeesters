@@ -166,6 +166,14 @@ Template Name: Homepage
 
 
 		</div>
+			<div class="u-gridRow aanbieding">
+				<a href="<?php the_field('link_aanbieding'); ?>"><?php the_field('text_aanbieding'); ?></a>
+			</div>	
+		
+			<div class="u-gridRow aanbieding">
+				<a href="<?php the_field('link_aanbieding_2'); ?>"><?php the_field('text_aanbieding_2'); ?></a>
+			</div>	
+
 			<?php echo do_shortcode('[webshop_categories id="1263" render_options_on_overview="true"]'); ?>
 				
 			<p class="eind-text"><?php the_field('welkom_tekst'); ?></p>
