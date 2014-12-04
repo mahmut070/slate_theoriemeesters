@@ -294,12 +294,16 @@ label.error{
 
 .aanbieding{
 	background: #262626;
-	color: #ffa200;
 	border-radius: 3px;
+	color: #ffa200;
 	padding: 10px;
 	font-size: 20px;
 	margin-top: 25px;
 	text-align: center;
+}
+
+.aanbieding a{
+	color: #ffa200;
 }
 
 @media all and (min-width: 1200px) {
