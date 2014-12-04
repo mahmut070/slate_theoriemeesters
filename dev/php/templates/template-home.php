@@ -166,35 +166,19 @@ Template Name: Homepage
 
 
 		</div>
-			<?php if( get_field('link_aanbieding') ): ?>
-
+		<?php for($i = 0; $i < 4 ; $i++) : ?>
+			<?php if( get_field('link_aanbieding_'.$i) ): ?>
 				<div class="u-gridRow aanbieding">
-					<a href="<?php the_field('link_aanbieding'); ?>"><?php the_field('text_aanbieding'); ?></a>
+					<a href="<?php the_field('link_aanbieding_'.$i); ?>"><?php the_field('text_aanbieding_'.$i); ?></a>
 				</div>	
-
 			<?php else: ?>
-
-				<div class="u-gridRow aanbieding">
-					<?php the_field('text_aanbieding'); ?>
-				</div>	
-
+				<?php if( get_field('text_aanbieding_'.$i)) : ?>
+					<div class="u-gridRow aanbieding">
+						<?php the_field('text_aanbieding_'.$i); ?>
+					</div>	
+				<?php endif; ?>
 			<?php endif; ?>
-
-
-
-			<?php if( get_field('link_aanbieding_2') ): ?>
-
-				<div class="u-gridRow aanbieding">
-					<a href="<?php the_field('link_aanbieding_2'); ?>"><?php the_field('text_aanbieding_2'); ?></a>
-				</div>	
-
-			<?php else: ?>
-
-				<div class="u-gridRow aanbieding">
-					<?php the_field('text_aanbieding_2'); ?>
-				</div>	
-
-			<?php endif; ?>
+		<?php endfor; ?>
 
 
 			<?php echo do_shortcode('[webshop_categories id="1263" render_options_on_overview="true"]'); ?>
