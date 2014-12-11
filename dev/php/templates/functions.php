@@ -40,7 +40,7 @@ if(is_admin() && !$initialized){
 	  add_option('slate_initialized', true);
 }
 
-include_once('includes/navigation-walker.php');
+//include_once('includes/navigation-walker.php');
 
 include_once('includes/antispam.php');
 

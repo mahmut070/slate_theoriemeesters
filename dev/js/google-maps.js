@@ -7,6 +7,7 @@ var geocoder3;
 
 
 function initialize() {
+
   geocoder = new google.maps.Geocoder();
   var mapCanvas = document.getElementById('map_canvas');
   if (mapCanvas != null) {
@@ -17,8 +18,6 @@ function initialize() {
     }
     map = new google.maps.Map(mapCanvas, mapOptions);
     codeAddress('Hazelkamp 36, 6836 BA Arnhem');
-    codeAddress('Hazenkamp 10, 6836 BA Arnhem');
-
   }
 }
 
