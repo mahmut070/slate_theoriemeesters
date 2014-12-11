@@ -9,15 +9,17 @@ var geocoder3;
 function initialize() {
   geocoder = new google.maps.Geocoder();
   var mapCanvas = document.getElementById('map_canvas');
-  var mapOptions = {
-    center: new google.maps.LatLng(44.5403, 1.5463),
-    zoom: 12,
-    mapTypeId: google.maps.MapTypeId.ROADMAP
-  }
-  map = new google.maps.Map(mapCanvas, mapOptions);
-  codeAddress('Hazelkamp 36, 6836 BA Arnhem');
-  codeAddress('Hazenkamp 10, 6836 BA Arnhem');
+  if (mapCanvas != null) {
+    var mapOptions = {
+      center: new google.maps.LatLng(44.5403, 1.5463),
+      zoom: 12,
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    }
+    map = new google.maps.Map(mapCanvas, mapOptions);
+    codeAddress('Hazelkamp 36, 6836 BA Arnhem');
+    codeAddress('Hazenkamp 10, 6836 BA Arnhem');
 
+  }
 }
 
 
@@ -43,14 +45,16 @@ google.maps.event.addDomListener(window, 'load', initialize);
 function initialize2() {
   geocoder2 = new google.maps.Geocoder();
   var mapCanvas = document.getElementById('map_canvas_twee');
-  var mapOptions = {
-    center: new google.maps.LatLng(44.5403, 1.5463),
-    zoom: 12,
-    mapTypeId: google.maps.MapTypeId.ROADMAP
+  if (mapCanvas != null) {
+    var mapOptions = {
+      center: new google.maps.LatLng(44.5403, 1.5463),
+      zoom: 12,
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    }
+    map2 = new google.maps.Map(mapCanvas, mapOptions);
+    codeAddress2('Californiëdreef 19, 3565 BJ Utrecht');
+    codeAddress2('Mississippidreef 151a, 3565 CE Utrecht');
   }
-  map2 = new google.maps.Map(mapCanvas, mapOptions);
-  codeAddress2('Californiëdreef 19, 3565 BJ Utrecht');
-  codeAddress2('Mississippidreef 151a, 3565 CE Utrecht');
 }
 
 
@@ -74,14 +78,16 @@ function codeAddress2(address) {
 function initialize3() {
   geocoder3 = new google.maps.Geocoder();
   var mapCanvas = document.getElementById('map_canvas_drie');
-  var mapOptions = {
-    center: new google.maps.LatLng(44.5403, 1.5463),
-    zoom: 12,
-    mapTypeId: google.maps.MapTypeId.ROADMAP,
+  if (mapCanvas != null) {
+    var mapOptions = {
+      center: new google.maps.LatLng(44.5403, 1.5463),
+      zoom: 12,
+      mapTypeId: google.maps.MapTypeId.ROADMAP,
+    }
+    map3 = new google.maps.Map(mapCanvas, mapOptions);
+    codeAddress3('Moezelhavenweg 29, 1043 AM Amsterdam');
+    codeAddress3('Naritaweg 150, 1043 CA Amsterdam');
   }
-  map3 = new google.maps.Map(mapCanvas, mapOptions);
-  codeAddress3('Moezelhavenweg 29, 1043 AM Amsterdam');
-  codeAddress3('Naritaweg 150, 1043 CA Amsterdam');
 }
 
 
