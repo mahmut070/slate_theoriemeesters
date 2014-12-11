@@ -74,7 +74,7 @@ module.exports = function (grunt) {
   grunt.registerTask('deploy', 'Deploy compressed child theme to live server.', [
     'clean:child',
     'build:child:compressed',
-	'rsync:deploy_child'
+	'ftpush:deploy_child'
   ]);
 
   // ----- Grunt build ----- //
