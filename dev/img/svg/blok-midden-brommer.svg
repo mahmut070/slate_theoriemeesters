@@ -2,44 +2,44 @@
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="513.126px" height="225.982px" viewBox="0 0 513.126 225.982" enable-background="new 0 0 513.126 225.982"
+	 width="513.125px" height="240.491px" viewBox="0 0 513.125 240.491" enable-background="new 0 0 513.125 240.491"
 	 xml:space="preserve">
-<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="180.0659" y1="641.0818" x2="237.3361" y2="698.3519" gradientTransform="matrix(-0.7071 0.7071 0.7071 0.7071 -73.3604 -588.4619)">
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-28.6782" y1="-493.6272" x2="32.1465" y2="-554.4518" gradientTransform="matrix(-0.7071 0.7071 -0.7071 -0.7071 -116.6996 -336.5947)">
 	<stop  offset="0" style="stop-color:#636466;stop-opacity:0"/>
 	<stop  offset="1" style="stop-color:#636466"/>
 </linearGradient>
-<polygon opacity="0.5" fill="url(#SVGID_1_)" enable-background="new    " points="60.814,73.163 515.253,73.163 395.282,-7.829 
+<polygon opacity="0.5" fill="url(#SVGID_1_)" enable-background="new    " points="60.814,78.189 515.252,78.189 395.282,-7.829 
 	-10.007,-7.829 "/>
 <g opacity="0.5">
 	
-		<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="-6.7422" y1="1267.5779" x2="-64.249" y2="1267.5779" gradientTransform="matrix(-1 0 0 1 -7.4941 -1154.5859)">
+		<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="-393.6157" y1="-1065.5925" x2="-451.1226" y2="-1065.5925" gradientTransform="matrix(-1 0 0 -1 -394.3682 -945.104)">
 		<stop  offset="0" style="stop-color:#636466;stop-opacity:0"/>
 		<stop  offset="1" style="stop-color:#636466"/>
 	</linearGradient>
-	<polygon fill="url(#SVGID_2_)" points="-0.753,156.477 -0.753,0 56.754,69.834 56.754,225.984 	"/>
+	<polygon fill="url(#SVGID_2_)" points="-0.753,166.673 -0.753,0.486 56.754,74.653 56.754,240.493 	"/>
 </g>
 <g>
-	<rect x="109" y="72.856" fill="#FFFFFF" width="365" height="150.105"/>
-	<path fill="#636466" d="M111.5,75.877h360v144.062h-360V75.877 M106.5,69.834v156.148h370V69.834H106.5L106.5,69.834z"/>
+	<rect x="109" y="77.863" fill="#FFFFFF" width="365" height="159.419"/>
+	<path fill="#636466" d="M111.5,81.071h360v153.002h-360V81.071 M106.5,74.653v165.838h370V74.653H106.5L106.5,74.653z"/>
 </g>
-<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="-663.2622" y1="1625.2332" x2="-622.4059" y2="1666.0547" gradientTransform="matrix(-0.7068 0.7074 0.7074 0.7068 -615.9643 -587.2697)">
+<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="-871.9019" y1="-1477.7727" x2="-831.046" y2="-1518.5939" gradientTransform="matrix(-0.7068 0.7074 -0.7074 -0.7068 -659.1182 -335.4535)">
 	<stop  offset="0" style="stop-color:#636466;stop-opacity:0"/>
 	<stop  offset="1" style="stop-color:#636466"/>
 </linearGradient>
-<polygon opacity="0.5" fill="url(#SVGID_3_)" enable-background="new    " points="788.755,92.385 1118.617,92.253 
-	1216.283,149.875 846.417,150.007 "/>
+<polygon opacity="0.5" fill="url(#SVGID_3_)" enable-background="new    " points="788.754,92.385 1118.618,92.253 
+	1216.284,149.875 846.417,150.007 "/>
 <g opacity="0.5">
 	
-		<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="-1338.9478" y1="1340.2439" x2="-1396.4556" y2="1340.2439" gradientTransform="matrix(-1 0 0 1 -550.1816 -1154.5859)">
+		<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="-1725.8203" y1="-1130.7615" x2="-1783.3301" y2="-1130.7615" gradientTransform="matrix(-1 0 0 -1 -937.0557 -945.104)">
 		<stop  offset="0" style="stop-color:#636466;stop-opacity:0"/>
 		<stop  offset="1" style="stop-color:#636466"/>
 	</linearGradient>
-	<polygon fill="url(#SVGID_4_)" points="846.271,279.142 846.273,149.952 788.765,92.174 788.765,221.634 	"/>
+	<polygon fill="url(#SVGID_4_)" points="846.272,279.142 846.274,149.952 788.764,92.174 788.764,221.634 	"/>
 </g>
 <g>
-	<rect x="848.771" y="152.452" fill="#FFFFFF" width="365" height="124.188"/>
-	<path fill="#636466" d="M1211.271,154.952V274.14h-360V154.952H1211.271 M1216.271,149.952h-370V279.14h370V149.952
-		L1216.271,149.952z"/>
+	<rect x="848.772" y="152.452" fill="#FFFFFF" width="365" height="124.188"/>
+	<path fill="#636466" d="M1211.272,154.952V274.14h-360V154.952H1211.272 M1216.272,149.952h-370V279.14h370V149.952
+		L1216.272,149.952z"/>
 </g>
-<rect x="56.754" y="69.834" fill="#5E5F5F" width="456.373" height="156.148"/>
+<rect x="56.754" y="74.653" fill="#5E5F5F" width="456.374" height="165.838"/>
 </svg>
