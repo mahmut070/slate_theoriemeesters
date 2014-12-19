@@ -91,7 +91,7 @@
 			if(product.ProductOption[1].ProductOptionValue_id != "286358") { //non herkansing
 				var pr = product.price;
 				if(product.quantity >= 2){
-					var extra = product.ProductOption[0].extraPrice == null ? -1 * product.quantumDiscount : parseFloat(product.ProductOption[0].extraPrice);
+					var extra = product.ProductOption[0].extraPrice == null ||  product.ProductOption[0].extraPrice == "" ? -1 * product.quantumDiscount : parseFloat(product.ProductOption[0].extraPrice);
 					pr = product.price + extra;
 				}
 				product.customPrice = pr * product.quantity;
