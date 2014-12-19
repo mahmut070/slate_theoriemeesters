@@ -87,16 +87,28 @@
 				return product;
 			}
 
-			//if not herkansing, and quantum >= 2, use 100 per lesson, times quantity
+
+//if not herkansing, and quantum >= 2, use 100 per lesson, times quantity
 			if(product.ProductOption[1].ProductOptionValue_id != "286358") { //non herkansing
 				var pr = product.price;
-				if(product.quantity >= 2){
-					var extra = product.ProductOption[0].extraPrice == null ||  product.ProductOption[0].extraPrice == "" ? -1 * product.quantumDiscount : parseFloat(product.ProductOption[0].extraPrice);
-					pr = product.price + extra;
+				
+				var extra = 0;
+				var quantum = 0;
+				if(product.ProductOption[0].extraPrice != null && product.ProductOption[0].extraPrice != ""){
+					extra = parseFloat(product.ProductOption[0].extraPrice);
+				} else { // check quantum
+					if(product.quantity >= 2){
+						quantum = -1 * product.quantumDiscount;
+					}
 				}
+				
+
+				pr = product.price + extra + quantum;
+
 				product.customPrice = pr * product.quantity;
 				return product;
 			}
+			
 
 			return product;
 
