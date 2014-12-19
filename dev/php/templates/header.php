@@ -80,8 +80,31 @@
 		   window.location.href = "/checkout";
 		}
 
-		customAddProductValidator = function(event, productData){
+		function beforeInsertingProductToCartHook(product, isExisting){
+			//if herkansing, no quantum discounts, just quantity * 40;
+			if(product.ProductOption[1].ProductOptionValue_id == "286358") { //herkansing
+				product.customPrice = parseFloat(product.quantity) * (parseFloat(product.price) + parseFloat(product.ProductOption[1].extraPrice));
+				return product;
+			}
 
+			//if not herkansing, and quantum >= 2, use 100 per lesson, times quantity
+			if(product.ProductOption[1].ProductOptionValue_id != "286358") { //non herkansing
+				var pr = product.price;
+				if(product.quantity >= 2){
+					var extra = product.ProductOption[0].extraPrice == null ? -1 * product.quantumDiscount : parseFloat(product.ProductOption[0].extraPrice);
+					pr = product.price + extra;
+				}
+				product.customPrice = pr * product.quantity;
+				return product;
+			}
+
+			return product;
+
+		}
+
+		customAddProductValidator = function(event, productData){
+			return true;
+/*
 			var $ = jQuery;
 			var clicked = $(event.currentTarget);
 			var prodId = clicked.attr('product-id');
@@ -103,7 +126,9 @@
 				alert('Het is niet mogelijk om meerdere van deze dag-aanbieding in één keer te bestellen. Indien je dit wilt doen, dien je twee losse bestellingen te doen.');
 				return false;
 			}
-			return true;
+
+			return true; 
+ */
 		}
 	</script>
 
