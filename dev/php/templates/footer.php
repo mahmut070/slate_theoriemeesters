@@ -24,7 +24,7 @@
 			<?php if ( is_active_sidebar( 'footer-widgets' ) ) : ?>
                 <div class="u-gridCol6">
         					<h4 class=" widgettitle">Locaties</h4>
-        					<p>Hazelkamp 36, 6836 BA Arnhem. (Gratis parkeren!)<p>
+        					<p>Hazenkamp 36, 6836 BA Arnhem. (Gratis parkeren!)<p>
         					<p>Californiëdreef 19, 3565 BJ Utrecht. (Gratis parkeren!)</p>
         					<p>Moezelhavenweg 29, 1043 AM Amsterdam. (Gratis parkeren!)</p>
                 </div>

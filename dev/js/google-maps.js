@@ -17,7 +17,7 @@ function initialize() {
       mapTypeId: google.maps.MapTypeId.ROADMAP
     }
     map = new google.maps.Map(mapCanvas, mapOptions);
-    codeAddress('Hazelkamp 36, 6836 BA Arnhem');
+    codeAddress('Hazenkamp 36, 6836 BA Arnhem');
   }
 }
 
