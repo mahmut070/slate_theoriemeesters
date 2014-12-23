@@ -20,7 +20,7 @@ Template Name: Contactpage
 								<p>Tel: 06 54 60 38 07</p></br>
 
 								<p>Locatie Arnhem</p>
-								<p>Hazelkamp 36</p>
+								<p>Hazenkamp 36</p>
 								<p>6836 BA Arnhem</p></br>
 
 								<p>Locatie Utrecht</p>
