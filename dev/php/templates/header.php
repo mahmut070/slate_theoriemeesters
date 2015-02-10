@@ -114,9 +114,11 @@
 				}
 				
 
-				pr = product.price + extra + quantum;
+			
+				pr = parseFloat(product.price) + parseFloat(extra) + parseFloat(quantum);
 
-				product.customPrice = pr * product.quantity;
+
+				product.customPrice = pr * parseFloat(product.quantity);
 				return product;
 			}
 			

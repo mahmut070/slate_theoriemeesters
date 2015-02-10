@@ -82,6 +82,12 @@
 	height: 250px;
 }
 
+
+#map_canvas img, #map_canvas_twee img, #map_canvas_drie img {
+	max-width: inherit; 
+}
+
+
 #shoppingcart {
 	display: none;
 }
