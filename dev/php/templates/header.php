@@ -99,7 +99,8 @@
 			}
 
 
-//if not herkansing, and quantum >= 2, use 100 per lesson, times quantity
+			//if not herkansing, and quantum >= 2, use 100 per lesson, times quantity
+			/*
 			if(product.ProductOption[1].ProductOptionValue_id != "286358") { //non herkansing
 				var pr = product.price;
 				
@@ -121,6 +122,7 @@
 				product.customPrice = pr * parseFloat(product.quantity);
 				return product;
 			}
+			*/
 			
 
 			return product;
