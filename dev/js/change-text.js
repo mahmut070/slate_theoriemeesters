@@ -93,7 +93,7 @@ jQuery(document).ready(
 
           });
 
-		  $(this).html(selectList);
+          $(this).html(selectList);
           $(this).children('option').removeAttr("selected"); //firefox bug
           $(this).children('option').first().attr("selected", "selected")
         }
